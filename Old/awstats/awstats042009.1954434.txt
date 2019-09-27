@@ -1,0 +1,298 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 200904 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2534                
+POS_VISITOR 6325                
+POS_DAY 7622                
+POS_DOMAIN 3159                
+POS_LOGIN 3389                
+POS_ROBOT 3584                
+POS_WORMS 3823                
+POS_EMAILSENDER 3954                
+POS_EMAILRECEIVER 4097                
+POS_SESSION 7879                
+POS_SIDER 8055                
+POS_FILETYPES 4232                
+POS_OS 4403                
+POS_BROWSER 4474                
+POS_SCREENSIZE 4596                
+POS_UNKNOWNREFERER 4670                
+POS_UNKNOWNREFERERBROWSER 4833                
+POS_ORIGIN 4944                
+POS_SEREFERRALS 5081                
+POS_PAGEREFS 5225                
+POS_SEARCHWORDS 5415                
+POS_KEYWORDS 5567                
+POS_MISC 2197                
+POS_ERRORS 5626                
+POS_CLUSTER 3245                
+POS_SIDER_404 5756                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20090501004645 1 0 23929802507
+FirstTime 20090423133215
+LastTime 20090430234840
+LastUpdate 20090502084310 1 0 0 0 0
+TotalVisits 177                 
+TotalUnique 31                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 31                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 45 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 19 35368 0 0 0
+1 7 7 30947 0 0 0
+2 8 20 200458 0 0 0
+3 6 6 26526 2 2 4446
+4 7 7 30947 0 0 0
+5 13 69 461020 5 29 170963
+6 9 21 204879 0 0 0
+7 9 9 39789 0 0 0
+8 12 42 46607 0 0 0
+9 11 55 280636 0 0 0
+10 7 7 30947 0 0 0
+11 11 42 109813 2 3 1949
+12 11 55 112071 2 3 13370
+13 8 8 35368 0 0 0
+14 11 14 135254 9 9 5569
+15 8 8 35368 2 2 4446
+16 8 8 35368 0 0 0
+17 9 9 39789 0 0 0
+18 8 8 35368 0 0 0
+19 8 8 35368 0 0 0
+20 11 55 205855 0 0 0
+21 8 8 35368 0 0 0
+22 10 14 55107 0 0 0
+23 12 49 548940 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 220 548 2807161
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+ntsl1243120 14 14 316887 20090429122206
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+tencenttraveler 26 169511 20090427051929 0
+googlebot 4 8892 20090428035707 2
+unknown 1 25 20090429141246 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 69 182158 0 0
+png 180 21036 0 0
+html 219 1209929 0 0
+jpg 12 525105 0 0
+js 42 866230 0 0
+jsp 1 1425 0 0
+gif 25 1278 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 3
+winxp 352
+win2003 5
+Unknown 191
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 6
+msie8.0 26
+msie6.0 261
+mozilla 186
+msie7.0 56
+Unknown 5
+firefox3.0.9 14
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/4.0_(compatible;_SPENG) 20090430234840
+panscient.com 20090429141251
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+panscient.com 20090429141251
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 208 217
+From1 0 0
+From2 0 0
+From3 1 1
+From4 11 330
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://www.facebook.com/ext/share.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+401 3 1809
+403 1 563
+206 1 12521
+301 2 492
+404 10 6930
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 6
+/scripts/images/photoalbum/button_photoSpeed 2 -
+/images/photoalbum/button_photoSpeed 2 -
+/opinionusa/index.jsp 1 -
+/images/button_photoSpeed 2 -
+/scripts/images/button_photoSpeed 2 -
+/opinionusa/style/style.css 1 http://www.asknshare.com/opinionusa/about.jsp
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 31
+76.167.167.218 70 70 309470 20090430225038
+206.72.71.173 45 45 198945 20090430234840
+64.136.159.191 19 19 83999 20090430175953
+58.33.59.223 16 207 330831 20090429122206
+4.130.136.119 6 6 26526 20090426132430
+4.130.136.194 5 5 22105 20090424030747
+4.167.162.2 5 5 22105 20090429145126
+114.93.117.200 4 38 178353 20090426002359
+4.130.141.159 4 4 17684 20090430160339
+4.130.143.212 4 4 17684 20090425130256
+58.33.59.141 1 13 169511 20090426062939
+4.130.138.13 3 3 13263 20090430205424
+124.79.128.55 1 13 169511 20090426024210
+4.130.137.5 2 2 8842 20090427114702
+58.247.20.250 2 14 173932 20090423230027
+4.130.138.152 4 4 17684 20090424213144
+4.130.138.204 4 4 17684 20090428145330
+4.130.139.131 2 2 8842 20090425234249
+38.100.8.50 2 5 95465 20090429141248
+124.79.98.199 1 1 1425 20090429115149
+4.130.136.36 3 3 13263 20090429213802
+207.46.55.27 1 13 169511 20090423233709
+121.76.201.51 1 13 169511 20090424051727
+4.130.141.31 4 4 17684 20090428021816
+60.63.152.40 1 13 169511 20090428090950
+114.93.105.145 1 13 169511 20090428204917
+4.130.139.250 2 2 8842 20090426210940
+38.100.41.113 1 5 15318 20090423221743
+220.248.0.145 1 1 2954 20090424052734
+207.46.55.29 1 13 169511 20090423233813
+4.130.142.128 4 4 17684 20090424124906
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 8
+20090423 16 56 576903 13
+20090424 27 39 282990 23
+20090425 40 189 462828 22
+20090426 30 97 529725 27
+20090427 25 25 110525 22
+20090428 28 52 453968 24
+20090429 29 65 279697 25
+20090430 25 25 110525 21
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+1h+ 4
+5mn-15mn 1
+0s-30s 152
+30mn-1h 20
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 201 875358 168 166
+/awstats/ 6 7834 6 1
+/awstats/0904/awstats.1954434.0904.html 5 292775 0 5
+/home.html 4 17684 0 3
+/awstats/0904/awstats.1954434.0904.errors404.html 1 5039 1 1
+/awstats/0904/awstats.1954434.0904.urldetail.html 1 6034 1 0
+/awstats/0904/awstats.1954434.0904.refererpages.html 1 5205 0 0
+/opinionusa/about.jsp 1 1425 1 1
+END_SIDER

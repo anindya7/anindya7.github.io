@@ -1,0 +1,916 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201808 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2535                
+POS_VISITOR 20843               
+POS_DAY 34272               
+POS_DOMAIN 3403                
+POS_LOGIN 3636                
+POS_ROBOT 3791                
+POS_WORMS 4507                
+POS_EMAILSENDER 4638                
+POS_EMAILRECEIVER 4781                
+POS_SESSION 35144               
+POS_SIDER 35347               
+POS_FILETYPES 4916                
+POS_OS 5135                
+POS_BROWSER 5317                
+POS_SCREENSIZE 5948                
+POS_UNKNOWNREFERER 6022                
+POS_UNKNOWNREFERERBROWSER 7587                
+POS_ORIGIN 8366                
+POS_SEREFERRALS 8512                
+POS_PAGEREFS 8681                
+POS_SEARCHWORDS 10898               
+POS_KEYWORDS 11050               
+POS_MISC 2199                
+POS_ERRORS 11109               
+POS_CLUSTER 3492                
+POS_SIDER_404 11212               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180901000238 1 0 8182572893583
+FirstTime 20180801000024
+LastTime 20180831234048
+LastUpdate 20180902032043 1 0 0 0 0
+TotalVisits 627                 
+TotalUnique 310                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 351                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 43 151 13074198 38 62 1990345
+1 27 87 7246421 40 62 2015137
+2 57 425 40982090 39 86 1717663
+3 38 103 7151853 33 74 1745004
+4 44 71 2806785 28 42 2178475
+5 38 145 9376685 47 132 4646746
+6 36 44 2293502 66 138 2849915
+7 33 133 12696989 36 98 2490117
+8 26 28 974053 43 81 1712320
+9 27 75 4097619 32 66 1847015
+10 30 117 8332343 22 46 1520079
+11 22 78 6661160 41 58 900327
+12 29 108 8646986 34 58 899835
+13 29 78 2375945 19 38 560676
+14 17 62 6047741 20 38 935042
+15 33 125 11921481 27 48 388228
+16 36 58 1867320 25 88 4384719
+17 56 74 2509733 35 64 2067889
+18 30 30 1142254 25 31 328968
+19 46 56 1688249 32 40 1300254
+20 30 103 8175395 17 42 768100
+21 40 60 1715027 34 53 987377
+22 41 93 5563943 23 52 912349
+23 75 160 10709499 36 57 1000259
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 883 2464 178057271
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+googlebot 253 9772175 20180831071809 0
+\wbot[\/\-] 129 9672130 20180831211353 0
+archive\.org_bot 108 8418890 20180821173327 0
+crawl 45 2635514 20180828045143 0
+java 41 1574697 20180830101432 0
+seznambot 33 2682418 20180830121258 0
+mj12bot 24 943512 20180831215208 0
+robot 21 1131356 20180830054230 0
+yandex 16 940277 20180830204721 0
+python 8 847286 20180824052628 0
+powermarks 2 41490 20180812143248 0
+core 1 39313 20180809094501 0
+commons\-httpclient 2 635447 20180820004615 0
+spider 1 39313 20180822211242 0
+msiecrawler 5 196565 20180804065440 0
+netcraft 2 78626 20180810023118 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 325 7371869 0 0
+png 60 35917498 0 0
+ttf 2 161304 0 0
+woff 27 1178524 0 0
+html 853 31677189 0 0
+js 519 12596881 0 0
+xml 1 511 0 0
+jpg 660 89142238 0 0
+gif 17 11257 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 14
+winxp 213
+winlong 12
+winnt 1114
+win2000 31
+win98 9
+linuxubuntu 5
+linux 457
+macosx 437
+winme 8
+win16 2
+win95 15
+wince 3
+win2003 29
+Unknown 129
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 44
+firefox57.0 12
+msie6.0 190
+firefox20.0 1
+firefox2.0.0.10 2
+firefox52.0 11
+firefox4.0 1
+firefox54.0 4
+curl 2
+msie3.02 3
+msie8.0 1
+firefox6.0.2 20
+firefox13.0.1 28
+firefox43.0 2
+netscape0.91 2
+msie7.0 25
+firefox59.0 2
+firefox40.1 9
+msie2.0 6
+msie5.0 5
+msie9.0 20
+Unknown 22
+firefox27.0 1
+netscape 2
+firefox50.0 3
+firefox53.0 3
+msie5.01 1
+firefox42.0 1
+opera 97
+firefox21.0 2
+firefox3.6.2 1
+firefox29.0 8
+firefox38.0 46
+msie5.5 25
+firefox30.0 3
+firefox46.0 2
+firefox56.0 2
+netscape4.79 3
+firefox61.0 39
+netscape0.6 6
+firefox33.0 1
+mozilla 136
+netscape5.0 2
+safari 1706
+firefox27.3 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 27
+DemandbasePublisherAnalyzer/0.1_(http://www.demandbase.com;_info@demandbase.com) 20180821213437
+Mozilla/5.0_(compatible;_evc-batch/2.0) 20180826130846
+Mozilla/5.0_(compatible;_DuckDuckGo-Favicons-Bot/1.0;__http://duckduckgo.com) 20180828195155
+curl/7.29.0 20180830231002
+Ruby 20180828083053
+Mozilla/5.0_(compatible;_Nimbostratus-Bot/v1.3.2;_http://cloudsystemnetworks.com) 20180831091942
+raisupgraph/2.0 20180821154106
+Mojolicious_(Perl) 20180827061946
+panscient.com 20180801065944
+Mozilla/0.91_Beta_(Windows) 20180801114421
+index_scraper_(_https://index.co) 20180807151804
+Mozilla/0.6_Beta_(Windows) 20180811211230
+Scrapy/1.5.0_(_https://scrapy.org) 20180824061534
+ds9_2.003.1(_http://www.deepsearchnine.com/ds9.html) 20180831064337
+.NET_Framework_Test_Client 20180827021300
+The_Knowledge_AI 20180812171152
+WhatsApp/2.18.248_A 20180830022758
+Mozilla 20180828045336
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20180824092503
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20180815050753
+Mozilla/5.0_(compatible;_ips-agent) 20180810190627
+Chrome/50.0.2661.102_Safari/537.36 20180831193411
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20180823005948
+Opera/9.80_(Android;_Opera_Mini/35.3.2254/113.82;_U;_en)_Presto/2.12.423_Version/12.16 20180830071523
+Mozilla/5.0/Firefox/42.0_-_nbertaupete95(at)gmail.com 20180803125548
+InetURL:/1.0 20180818215054
+Micromax_X853/R2AE_SEMC-Browser/4.0.3_Profile/MIDP-2.0_Configuration/CLDC-1.1 20180828143505
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 14
+DemandbasePublisherAnalyzer/0.1_(http://www.demandbase.com;_info@demandbase.com) 20180821213437
+Ruby 20180828083053
+raisupgraph/2.0 20180821154106
+Mojolicious_(Perl) 20180827061946
+panscient.com 20180801065944
+index_scraper_(_https://index.co) 20180807151804
+Scrapy/1.5.0_(_https://scrapy.org) 20180824061534
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20180823005948
+ds9_2.003.1(_http://www.deepsearchnine.com/ds9.html) 20180831064337
+.NET_Framework_Test_Client 20180827021300
+InetURL:/1.0 20180818215054
+The_Knowledge_AI 20180812171152
+Micromax_X853/R2AE_SEMC-Browser/4.0.3_Profile/MIDP-2.0_Configuration/CLDC-1.1 20180828143505
+WhatsApp/2.18.248_A 20180830022758
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 502 659
+From1 13 13
+From2 33 51
+From3 270 277
+From4 65 1464
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 2 20
+yandex 31 31
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 64
+https://manimpotence.com 17 17
+https://infektsii.com 14 14
+http://www.rospromtest.ru 12 12
+http://sladkoevideo.com 11 11
+https://xn----ctbbcjd3dbsehgi.xn--p1ai 11 11
+http://purchasepillsnorx.com 11 11
+https://atleticpharm.org 10 10
+https://impotentik.com 10 10
+https://rent2spb.ru 8 8
+https://aerodizain.com 7 7
+http://ukrainian-poetry.com 1 1
+https://allergija.com 5 5
+https://bpro1.top 3 3
+https://www.miraclemovers.com 2 2
+http://poiskzakona.ru 6 6
+https://balkanfarma.org 3 3
+http://03e.info 6 6
+http://prostitutki-rostova.ru.com 6 6
+http://www.puretemp.com/pcmatters/patent-application-enclosure-temperature-control-system 1 1
+http://snabs.kz 5 5
+https://top-l2.com 7 7
+https://rybalka-opt.ru 4 4
+http://udav.net 2 2
+https://cn.bing.com 0 5
+https://xn----8sbarihbihxpxqgaf0g1e.xn--80adxhks 3 3
+https://sportwizard.ru 1 1
+https://supermama.top 5 5
+http://avtointeres.ru 3 3
+https://russian-translator.com 1 1
+https://undergroundcityphoto.com 6 6
+http://xn----ctbigni3aj4h.xn--p1ai 5 5
+http://viagra-soft.ru 7 7
+http://www.tsatu.edu.ua 4 4
+http://metallosajding.ru 4 4
+http://money7777.info 3 3
+http://xn----8sblgmbj1a1bk8l.xn----161-4vemb6cjl7anbaea3afninj.xn--p1ai 3 3
+http://openings.sustainable-energy-and-agriculture-technology.com 1 1
+https://www.souvenirua.com/uk/ 2 2
+https://www.linkedin.com 1 1
+https://moinozhki.com 2 2
+http://elementspluss.ru 1 1
+http://www.bing.com/search 1 1
+https://ww2awards.info 1 1
+http://modnie-futbolki.net 4 4
+https://russian-postindex.ru 5 5
+https://tl.rulate.ru 2 2
+http://mobile.regionshop.biz 4 4
+http://moneyzzz.ru 3 3
+https://www.bing.com 0 2
+https://ask-yug.com 3 3
+http://csrtools.prod.netsol.com/BaseProductList.jsp 1 1
+http://skinali.photo-clip.ru 2 2
+http://jjbabskoe.ru 1 1
+https://bezprostatita.com 2 2
+http://ruspoety.ru 2 2
+http://lerporn.info 4 4
+http://computer-remont.ru 4 4
+http://x5market.ru 5 5
+https://yes-com.com 2 2
+http://dosugrostov.site 4 4
+https://www.artdeko.info 3 3
+http://resell-seo-services.com/try.php 1 1
+https://l.facebook.com 1 1
+http://csrtools.prod.netsol.com/UserBaseProductList.jsp 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+403 24 15405
+404 839 482425
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 119
+/blog/wp-includes/wlwmanifest.xml 13 -
+/images/prettyPhoto/default/sprite_prev.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/robots.txt 268 -
+/images/prettyPhoto/light_rounded/btnNext.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/dark_square/sprite.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/wordpress/ 1 -
+/openings 1 http://sustainable-energy-and-agriculture-technology.com/apply
+/images/prettyPhoto/light_rounded/btnPrevious.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/dark_square/btnPrevious.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/sftp-config.json 1 -
+/images/prettyPhoto/facebook/btnPrevious.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/WEB%20PRUEBA/images/FONDO%20PANEL2.jpg 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_style.css
+/.git/HEAD 4 -
+/fonts/flexslider-icon.eot 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/css/circle.css 82 http://www.sustainable-energy-and-agriculture-technology.com/
+/site/wp-includes/wlwmanifest.xml 13 -
+/images/prettyPhoto/light_rounded/sprite.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/admin/login.php 3 -
+/info 1 -
+/vacancies 1 http://jobs.sustainable-energy-and-agriculture-technology.com
+/manager/index.php 2 http://www.sustainable-energy-and-agriculture-technology.com/manager/index.php
+/.ftpconfig 1 -
+/images/logo.png 1 -
+/downloader/ 2 -
+/wp-content/plugins/Tevolution/tmplconnector/monetize/templatic-custom_fields/css/jquery.lightbox.css 1 http://sustainable-energy-and-agriculture-technology.com/wp-content/plugins/Tevolution/tmplconnector/monetize/templatic-custom_fields/css/jquery.lightbox.css
+/-webkit-image-set(https://www.gstatic.com/mapspro/images/google-my-maps-logo-small-001.png%201x,%20https://www.gstatic.com/mapspro/images/google-my-maps-logo-small-2x-001.png%202x) 1 http://sustainable-energy-and-agriculture-technology.com/
+/WEB%20PRUEBA/images/FONDO%20PANE1.jpg 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_style.css
+//blog/wp-admin/install.php 1 -
+/g 1 http://www.sustainable-energy-and-agriculture-technology.com/
+/jobs 1 http://sustainable-energy-and-agriculture-technology.com/vacancies
+/images/prettyPhoto/dark_rounded/loader.gif 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/xmlrpc.php 14 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 3 -
+/images/prettyPhoto/facebook/loader.gif 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+//administrator/index.php 2 -
+/images/prettyPhoto/facebook/contentPatternLeft.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/js/lib/jquery.mousewheel-3.0.6.pack.js 118 -
+/== 1 http://www.sustainable-energy-and-agriculture-technology.com/
+//wordpress/wp-admin/install.php 1 -
+/images/prettyPhoto/dark_square/btnNext.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/SEAT-shirt.jpg 1 -
+/images/prettyPhoto/dark_rounded/contentPattern.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/fonts/flexslider-icon.ttf 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/css/jquery.bxslider.css 80 http://www.sustainable-energy-and-agriculture-technology.com/
+/images/prettyPhoto/default/sprite_x.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/default/sprite_next.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+//wp-login.php 1 http://www.google.com.hk
+/fonts/flexslider-icon.svg 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/pma/index.php 1 https://google.com
+/images/spacer.gif 13 -
+/lfm.php 1 -
+//user 1 -
+/images/prettyPhoto/dark_square/loader.gif 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/default/sprite_y.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/administrator 1 -
+/career 12 http://sustainable-energy-and-agriculture-technology.com
+/components/com_jce/jce.php 1 -
+/admin/images/cal_date_over.gif 3 -
+/images/prettyPhoto/facebook/contentPatternBottom.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/portfolio/6.jpg 1 -
+/a 2 -
+/dbs.php 3 -
+/images/slider/img_1_blank.jpg 1 https://www.google.co.in/
+/%23templatemo_contact 1 -
+/wp-login.php 19 -
+/images/prettyPhoto/default/sprite.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/connectors/system/phpthumb.php 4 -
+/images/prettyPhoto/light_square/btnPrevious.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/jdownloads/screenshots/ds.gif 3 -
+/css/particular_ad_small.png 1 http://sustainable-energy-and-agriculture-technology.com/css/cta.css
+/images/templatemo_menu_hover.png 1 http://sustainable-energy-and-agriculture-technology.com/css/ddsmoothmenu.css
+/images/partners/partner3.jpg 1 -
+/fonts/flexslider-icon.woff 2 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/default/loader.gif 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/theme/assets/global/plugins/jquery-file-upload/server/php/ 1 http://sustainable-energy-and-agriculture-technology.com/theme/assets/global/plugins/jquery-file-upload/server/php/
+/templates/system/css/system.css 3 -
+/__media__/js/netsoltrademark.php 1 http://sustainable-energy-and-agriculture-technology.com/__media__/js/netsoltrademark.php
+/images/prettyPhoto/facebook/btnNext.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/facebook/sprite.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/components/com_sexycontactform/fileupload/index.php 1 http://sustainable-energy-and-agriculture-technology.com/components/com_sexycontactform/fileupload/index.php
+/wp-includes/wlwmanifest.xml 15 -
+/blog/xmlrpc.php 1 -
+/wp-content/plugins/viral-optins/api/uploader/file-uploader.php 1 http://sustainable-energy-and-agriculture-technology.com/wp-content/plugins/viral-optins/api/uploader/file-uploader.php
+/blog/ 2 -
+/apply 2 http://sustainable-energy-and-agriculture-technology.com/career
+/.env 3 -
+/wp/ 1 -
+/cms/wp-includes/wlwmanifest.xml 14 -
+/images/prettyPhoto/facebook/contentPatternRight.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/license.php 10 -
+/db.php 1 -
+/mailto:ashbose@sustainable-energy-and-agriculture-technology.com 2 -
+/images/prettyPhoto/default/default_thumb.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/util/login.aspx 1 -
+/ads.txt 3 -
+/radial-gradient(circle%2520farthest-side,%2520rgba(204,%2520204,%2520204,%25200.25098),%2520rgba(204,%2520204,%2520204,%25200.25098)%252080%25,%2520rgba(204,%2520204,%2520204,%25200)%2520100%25) 1 http://sustainable-energy-and-agriculture-technology.com/
+/blog/robots.txt 1 -
+/images/prettyPhoto/facebook/default_thumbnail.gif 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/light_rounded/loader.gif 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/wp/wp-includes/wlwmanifest.xml 13 -
+/de%20todo/Seat%20Web/templatemo_blogimage01.jpg 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_style.css
+/administrator/index.php 1 https://google.com
+/images/prettyPhoto/dark_rounded/btnNext.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/wordpress/wp-includes/wlwmanifest.xml 14 -
+///wp-admin/install.php 1 -
+/images/prettyPhoto/light_square/btnNext.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/css/images/templatemo_bullet.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_style.css
+/images/prettyPhoto/light_square/sprite.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/administrator/components/com_simplephotogallery/lib/uploadFile.php 1 http://sustainable-energy-and-agriculture-technology.com/administrator/components/com_simplephotogallery/lib/uploadFile.php
+/images/prettyPhoto/dark_rounded/sprite.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/templatemo_blogimage02.jpg 1 -
+//old/wp-admin/install.php 1 -
+//xmlrpc.php 1 http://www.google.com.hk
+//wp/wp-admin/install.php 1 -
+/assets/components/gallery/connector.php 2 -
+/images/prettyPhoto/dark_rounded/btnPrevious.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/facebook/contentPatternTop.png 1 http://sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/index.php 7 -
+/phpmyadmin/index.php 1 https://google.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 351
+67.192.51.26 51 51 1930691 20180831234048
+5.248.253.117 51 51 1670739 20180816010951
+66.11.128.152 50 50 1928514 20180831222159
+178.137.161.193 36 36 1415268 20180808103507
+46.118.229.130 35 35 1375955 20180828213052
+46.119.115.219 26 26 799322 20180815134026
+46.118.125.157 24 24 943512 20180808095823
+178.137.95.1 22 22 864886 20180807071630
+178.137.93.245 21 21 639893 20180815142455
+46.119.121.78 21 21 677029 20180815192442
+202.46.58.201 1 1 39313 20180808181627
+66.220.151.88 1 18 2366807 20180805235029
+34.220.68.115 1 1 39313 20180820150156
+103.255.254.123 1 1 39313 20180810092337
+139.81.179.76 1 1 39313 20180809034957
+35.165.55.71 1 1 39313 20180829175937
+52.89.26.84 1 1 39313 20180816172623
+202.46.51.11 1 1 39313 20180808205810
+107.0.58.217 0 1 110793 
+38.99.62.93 4 4 120116 20180826130846
+142.93.183.177 1 1 39313 20180820173946
+31.13.115.11 0 5 1479613 
+107.167.108.100 2 48 5408204 20180830071207
+209.97.141.173 1 1 39313 20180817160150
+118.200.119.57 0 1 305704 
+34.210.51.54 1 1 39313 20180822172126
+77.234.46.130 1 1 39313 20180801053623
+38.100.21.66 1 9 216546 20180817215646
+54.188.154.221 1 1 39313 20180813152703
+54.90.16.2 1 1 39313 20180831180029
+125.99.104.14 4 95 10838686 20180820025649
+192.17.58.230 2 2 78626 20180822012748
+13.56.179.125 1 1 39313 20180819214421
+94.250.254.57 2 2 78626 20180831152850
+101.226.86.152 0 10 237261 
+218.13.14.198 0 5 748253 
+18.208.144.158 1 1 39313 20180820231650
+54.211.182.45 1 1 39313 20180821213437
+54.90.238.126 1 1 39313 20180828083053
+64.246.165.200 1 1 39313 20180814154446
+34.229.209.68 0 1 76607 
+202.46.52.174 1 1 39313 20180810053551
+158.69.252.227 1 1 39313 20180822172045
+142.93.71.22 1 11 276574 20180817054548
+191.101.141.214 1 1 39313 20180829210050
+31.13.115.4 1 11 2033159 20180824225821
+212.83.177.250 1 1 39313 20180831082327
+138.197.111.95 2 11 308566 20180820212012
+66.57.167.114 2 50 5436185 20180830154514
+202.46.57.165 1 1 39313 20180831123603
+54.160.127.41 1 1 39313 20180806033238
+123.231.109.83 1 1 39313 20180825043801
+94.130.139.48 1 1 39313 20180831064337
+54.91.16.247 4 4 120116 20180827031750
+23.250.1.151 1 1 39313 20180822064451
+167.99.212.214 1 1 39313 20180816214620
+202.46.55.66 1 1 2177 20180811211416
+96.126.64.73 1 1 39313 20180802150557
+69.84.207.246 0 17 1524563 
+52.23.186.94 1 1 39313 20180802031534
+34.235.160.41 0 1 76607 
+103.77.3.217 1 1 39313 20180808002444
+54.218.38.119 1 1 39313 20180815175559
+202.46.56.172 1 1 39313 20180810210347
+74.82.60.46 0 1 305704 
+178.137.94.200 16 16 629008 20180808020814
+18.237.3.62 1 1 39313 20180815182938
+51.15.145.148 2 2 78626 20180826064808
+54.191.41.167 1 1 39313 20180823182422
+31.13.115.16 0 8 594844 
+69.122.211.100 2 12 315887 20180809163628
+159.203.111.39 1 19 508911 20180802131257
+134.249.50.185 4 4 157252 20180821051423
+50.244.210.73 2 46 5382355 20180830125249
+94.236.250.141 0 1 23852 
+191.253.81.15 2 46 5418575 20180810140319
+18.232.71.188 0 1 76607 
+192.186.174.123 1 1 39313 20180820115310
+34.229.87.229 1 1 39313 20180827021300
+185.217.63.39 1 1 39313 20180817101241
+23.97.214.34 1 1 39313 20180801111235
+45.59.20.7 1 1 39313 20180815183745
+13.93.222.185 1 1 39313 20180818192642
+202.46.54.24 1 1 39313 20180815225733
+113.42.28.74 0 1 305704 
+81.149.144.209 1 1 39313 20180816092902
+46.36.39.32 5 5 196565 20180827045335
+188.166.32.182 1 1 39313 20180804173248
+36.85.76.233 1 1 39313 20180819062531
+54.85.49.13 1 1 39313 20180808121920
+54.183.77.157 1 1 39313 20180819024213
+178.137.93.108 4 4 157252 20180816231325
+196.20.186.191 2 49 5434448 20180805021844
+45.57.144.196 1 1 39313 20180808165100
+46.118.155.165 3 3 117939 20180823000452
+66.102.6.203 1 1 39313 20180805070026
+23.254.12.162 1 1 39313 20180820064132
+122.129.122.194 0 1 110793 
+65.19.141.114 1 1 39313 20180827002334
+173.252.127.9 0 1 305704 
+34.219.171.91 1 1 39313 20180821195438
+167.114.174.95 4 4 118450 20180824092802
+59.144.9.6 0 2 218554 
+46.101.80.192 1 1 39313 20180809095724
+178.137.16.156 18 18 596226 20180815092229
+54.184.26.131 2 2 78626 20180805042752
+66.220.151.89 1 15 1018688 20180805235237
+52.26.187.169 1 1 39313 20180827175308
+71.63.3.228 1 1 39313 20180827061946
+35.161.216.252 1 1 39313 20180830191332
+202.46.57.182 1 1 39313 20180824231844
+35.161.250.247 1 1 39313 20180822175112
+52.33.3.78 1 1 39313 20180829070136
+54.87.247.54 3 3 117939 20180819204612
+31.13.115.2 0 1 5800 
+135.23.221.142 2 2 78626 20180818215054
+51.9.94.254 1 1 39313 20180804115209
+52.37.211.217 7 7 275191 20180830000804
+117.247.153.51 0 1 305704 
+52.10.245.104 3 3 117939 20180828050525
+64.209.132.6 2 2 78626 20180810235441
+142.93.191.124 1 1 39313 20180822023422
+176.58.103.95 2 2 78626 20180804135729
+54.172.54.99 1 1 39313 20180816021502
+52.206.137.6 1 1 39313 20180819174552
+23.81.60.147 1 1 39313 20180822040327
+54.184.254.206 1 1 39313 20180820145356
+195.201.105.126 1 1 2177 20180812102223
+202.46.54.72 1 1 39313 20180807213505
+68.152.9.254 0 1 23852 
+34.221.81.116 1 1 39313 20180823002417
+54.242.89.240 8 8 314504 20180831062414
+49.44.140.6 1 45 5343042 20180830022810
+31.13.115.9 0 5 514531 
+202.46.58.206 1 1 39313 20180825235256
+188.166.79.172 1 1 39313 20180821154106
+202.46.51.113 1 1 39313 20180805225826
+178.80.140.27 1 1 39313 20180807081927
+34.222.68.198 1 1 39313 20180816183926
+138.197.111.31 1 1 39313 20180813221359
+202.46.48.92 1 1 39313 20180817233956
+134.249.141.24 2 2 78626 20180802190437
+138.197.111.53 1 11 276574 20180825113749
+47.90.203.159 1 1 39313 20180808010019
+34.220.91.57 1 1 39313 20180806122455
+186.77.198.230 2 46 5382355 20180805155150
+23.80.151.130 1 1 39313 20180815163918
+138.197.111.146 1 1 2177 20180812145711
+202.46.56.62 1 1 39313 20180831222337
+54.202.68.94 1 1 39313 20180830182722
+198.143.158.182 2 2 78626 20180821061522
+188.240.208.26 2 2 78626 20180823224500
+54.188.190.118 1 1 39313 20180813144809
+37.115.185.236 3 3 117939 20180804063523
+185.217.63.40 1 1 39313 20180830191749
+95.42.20.193 0 1 322538 
+34.217.40.251 1 1 39313 20180831201316
+91.210.145.108 1 1 39313 20180831031402
+138.197.111.105 1 11 276574 20180824021619
+185.58.206.80 2 2 78626 20180814103942
+209.95.51.170 2 41 1841560 20180808104146
+121.231.168.72 5 5 196565 20180831084455
+45.55.252.183 1 11 276574 20180827030208
+202.46.58.131 1 1 39313 20180825045017
+62.210.196.97 3 3 117939 20180823125051
+86.36.66.129 1 14 385982 20180807054723
+172.245.244.28 1 1 39313 20180828144000
+50.202.38.5 3 3 117939 20180827160008
+104.144.210.12 1 1 39313 20180817113300
+198.20.103.246 1 1 39313 20180808102144
+101.229.50.70 1 1 39313 20180824204608
+192.157.88.165 1 2 95377 20180830104507
+31.184.238.129 1 2 72537 20180819131551
+35.184.201.105 1 1 39313 20180813234844
+52.165.150.117 1 1 39313 20180802170316
+2.205.77.185 2 38 5196208 20180803015802
+54.212.33.160 1 1 39313 20180831193411
+105.103.159.82 0 1 76607 
+18.237.230.155 1 1 39313 20180817190336
+54.241.143.53 1 1 39313 20180825081647
+95.25.101.79 1 1 39313 20180801132803
+23.94.149.175 1 1 39313 20180824120143
+34.213.95.201 1 1 39313 20180821164010
+138.197.202.197 1 1 39313 20180801023550
+192.3.168.35 4 4 120116 20180819193603
+54.213.132.124 1 1 39313 20180823162819
+118.100.52.164 0 1 110793 
+69.58.178.58 1 1 39313 20180810190627
+52.90.194.229 1 1 39313 20180819084321
+34.214.182.208 1 1 39313 20180827174231
+64.233.172.215 2 2 78626 20180829084955
+202.46.48.99 1 1 39313 20180820205442
+66.249.93.201 1 1 39313 20180807194510
+13.94.206.199 1 1 39313 20180821061417
+171.51.186.127 0 1 23852 
+77.120.38.130 0 1 305704 
+128.177.10.252 1 1 2177 20180812102739
+178.159.37.70 20 20 711988 20180811211230
+109.162.76.163 3 3 117939 20180816162426
+31.13.115.13 1 10 198346 20180824225819
+95.25.155.190 2 2 4354 20180812173326
+209.17.97.2 1 1 39313 20180831091942
+202.46.48.149 0 1 2685 
+156.159.98.80 0 1 76607 
+35.162.141.144 7 7 275191 20180827114607
+43.241.145.135 0 1 23852 
+54.69.65.82 1 1 39313 20180814225808
+78.24.222.112 3 3 117939 20180809235341
+202.46.49.140 1 1 39313 20180826233513
+64.62.252.163 1 1 2177 20180812171152
+75.151.142.41 2 46 5382355 20180803111843
+163.172.4.153 6 6 235878 20180830022628
+109.69.214.25 2 46 5382355 20180805073335
+149.28.10.164 1 1 39313 20180826225311
+89.27.146.114 2 46 5382355 20180802024825
+61.12.85.58 0 1 76607 
+212.186.73.37 2 47 5410607 20180809033539
+52.53.172.200 3 21 537552 20180831170946
+54.190.38.43 1 1 39313 20180828191949
+134.249.50.5 8 8 314504 20180825041354
+104.218.195.78 1 1 39313 20180805033443
+52.42.72.129 1 1 39313 20180818192439
+59.94.21.225 3 62 5884306 20180801023633
+67.170.1.4 1 36 2279629 20180813121657
+184.96.61.181 16 22 1062307 20180828045819
+64.233.172.211 4 4 120116 20180826232534
+54.183.5.18 1 1 2177 20180812031751
+54.198.100.27 1 1 39313 20180803125548
+173.252.88.2 0 1 807 
+52.201.158.28 1 1 39313 20180822123226
+168.151.225.125 1 1 39313 20180802070942
+18.212.6.54 1 1 39313 20180815122640
+202.46.52.153 1 1 39313 20180812224920
+52.53.201.78 11 11 432443 20180830221533
+202.46.54.33 1 1 39313 20180816210211
+52.53.205.130 1 1 39313 20180828125838
+54.187.181.201 1 1 39313 20180819192233
+171.43.185.234 3 21 537552 20180830234127
+119.155.117.247 3 3 117939 20180807235347
+192.248.64.205 0 1 110793 
+137.117.136.135 1 1 39313 20180805151532
+107.6.183.228 1 1 39313 20180802040958
+35.160.158.188 1 1 39313 20180819181431
+52.90.194.41 1 1 39313 20180821184424
+66.220.151.86 0 5 1533042 
+165.227.183.104 1 19 508911 20180802005134
+206.180.165.147 1 1 39313 20180807011657
+159.89.94.198 2 46 5382355 20180801021549
+35.162.214.175 6 6 235878 20180831011931
+205.178.130.14 3 50 5385593 20180812202839
+185.217.63.37 1 1 39313 20180807221344
+34.221.234.123 1 1 39313 20180824190307
+34.220.58.171 1 1 39313 20180814232658
+202.46.49.76 1 1 39313 20180814143914
+159.89.207.77 1 1 39313 20180825001212
+35.205.238.217 1 9 264851 20180801162334
+104.222.43.221 1 1 39313 20180803101315
+45.59.20.137 1 1 39313 20180804163713
+54.208.102.37 2 2 78626 20180828195155
+35.205.232.156 1 1 39313 20180807151804
+173.252.115.164 1 1 2177 20180811191726
+142.93.190.64 1 1 39313 20180815165208
+13.57.237.236 1 1 39313 20180805031436
+66.102.6.205 1 1 39313 20180801145132
+69.89.103.125 0 1 23852 
+64.233.173.16 1 1 39313 20180830022758
+54.184.227.45 1 1 39313 20180827151904
+54.189.25.183 1 1 39313 20180824172400
+31.13.115.8 0 4 531961 
+49.35.25.74 1 1 39313 20180830022758
+202.46.58.137 1 1 39313 20180814223703
+142.93.67.124 1 11 276574 20180830031714
+23.27.239.225 1 1 39313 20180811021857
+104.255.70.22 1 1 39313 20180805122735
+175.157.121.193 0 1 76607 
+138.197.71.180 1 11 276574 20180822023839
+59.56.241.218 1 1 39313 20180815041419
+104.236.67.162 1 19 508911 20180829043358
+159.203.70.167 2 36 995640 20180816215913
+138.197.111.27 1 11 276574 20180808131609
+111.175.49.116 3 21 537552 20180830234910
+31.13.115.12 0 2 24101 
+108.74.155.149 0 1 23852 
+52.25.25.138 1 1 39313 20180817163555
+66.220.151.87 0 8 463818 
+66.249.91.169 1 1 39313 20180815050753
+104.200.45.169 1 1 39313 20180830072138
+202.46.55.133 1 1 39313 20180829223653
+35.232.38.208 1 1 39313 20180806215542
+75.107.82.23 6 38 1782093 20180812203053
+202.46.51.31 1 1 39313 20180827204651
+34.210.86.223 1 1 39313 20180828171501
+198.143.155.140 1 1 39313 20180805044554
+192.210.200.55 1 17 409115 20180828022216
+202.165.203.38 0 1 76607 
+34.221.25.109 1 1 39313 20180827122532
+71.127.222.133 1 1 39313 20180801065944
+180.152.21.123 1 35 2135652 20180809094522
+35.226.5.65 2 47 5383334 20180827002407
+165.227.210.10 1 16 448048 20180825051802
+35.161.146.92 1 1 39313 20180829192017
+13.57.17.118 4 4 157252 20180831171303
+78.11.211.217 1 1 39313 20180803153655
+173.252.115.165 0 1 807 
+142.93.68.0 1 1 39313 20180802172220
+23.229.22.200 1 1 39313 20180809205451
+51.15.147.166 2 2 78626 20180821231823
+173.211.119.115 1 1 39313 20180823005635
+117.204.226.31 0 1 76607 
+35.160.211.100 1 1 39313 20180820175741
+23.244.123.118 1 1 39313 20180821122457
+23.27.238.24 1 1 39313 20180828000742
+66.102.6.207 2 2 78626 20180808124453
+95.181.179.219 1 1 39313 20180827064551
+122.175.175.75 2 46 5382355 20180820054122
+74.178.40.83 1 1 39313 20180816060841
+34.221.101.45 1 1 39313 20180825185224
+64.233.172.213 5 5 196565 20180825215932
+34.221.173.156 1 1 39313 20180807154036
+173.252.115.5 1 1 2177 20180811191726
+54.185.16.222 1 1 39313 20180818192203
+95.69.143.9 2 2 78626 20180824061534
+54.214.178.170 1 1 39313 20180806161710
+64.209.132.7 7 7 275191 20180830221930
+159.203.105.15 1 1 2177 20180811234838
+202.46.52.206 1 1 39313 20180802210137
+18.191.223.223 4 22 613085 20180829053735
+18.237.175.43 2 2 78626 20180814054458
+34.221.82.246 2 2 78626 20180808025332
+106.51.65.93 11 14 530419 20180806163215
+46.119.115.33 1 1 39313 20180830091301
+165.227.223.85 1 11 276574 20180807014157
+199.201.65.132 2 46 5382355 20180815001542
+180.158.206.152 1 1 39313 20180824183645
+54.213.127.127 2 2 78626 20180822034358
+58.38.172.157 1 1 39313 20180825145027
+79.110.19.140 1 1 39313 20180820032957
+54.184.137.44 1 1 39313 20180825190011
+222.67.86.66 1 1 39313 20180826001436
+54.184.153.230 1 1 39313 20180831164332
+34.213.232.178 2 2 78626 20180829005918
+209.17.96.74 1 1 39313 20180827191911
+202.46.57.27 1 1 39313 20180813200558
+18.206.64.52 1 1 39313 20180829122214
+8.18.120.187 1 1 39313 20180827204115
+13.93.221.51 1 1 39313 20180821143845
+94.8.79.135 2 48 5410246 20180829104152
+159.203.173.65 1 11 276574 20180820014748
+202.46.57.161 1 1 39313 20180829000300
+159.65.190.111 1 1 39313 20180813221054
+54.183.181.250 3 3 117939 20180816153801
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20180801 46 157 13104032 30
+20180802 39 120 8081836 25
+20180803 31 112 11750807 22
+20180804 35 35 1375955 22
+20180805 35 215 22645649 28
+20180806 40 46 1912902 23
+20180807 33 75 2427464 24
+20180808 47 142 9198349 27
+20180809 23 122 8807041 17
+20180810 35 80 6792511 21
+20180811 28 30 173978 18
+20180812 35 114 7372832 23
+20180813 22 58 3410906 17
+20180814 36 36 1415268 22
+20180815 31 76 6546284 22
+20180816 30 47 1949344 22
+20180817 16 35 1349206 15
+20180818 10 11 469737 9
+20180819 22 23 898110 19
+20180820 26 136 12258704 21
+20180821 25 33 1908144 23
+20180822 18 28 944895 16
+20180823 19 21 1076503 15
+20180824 22 76 6367074 16
+20180825 17 42 1314317 16
+20180826 13 13 511069 11
+20180827 27 83 6714213 24
+20180828 36 79 4278457 19
+20180829 20 104 7459808 16
+20180830 31 261 23669701 25
+20180831 35 54 1872175 19
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 3
+0s-30s 543
+15mn-30mn 4
+30s-2mn 46
+2mn-5mn 27
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 5
+/ 853 31677189 618 606
+/fonts/fontawesome-webfont.woff 26 1155232 9 18
+/fonts/fontawesome-webfont.ttf 2 161304 0 2
+/sitemap.xml 1 511 0 1
+/fonts/glyphicons-halflings-regular.woff 1 23292 0 0
+END_SIDER

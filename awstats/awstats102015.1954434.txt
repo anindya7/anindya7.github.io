@@ -1,0 +1,294 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201510 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2535                
+POS_VISITOR 8819                
+POS_DAY 9106                
+POS_DOMAIN 3177                
+POS_LOGIN 3407                
+POS_ROBOT 3562                
+POS_WORMS 3694                
+POS_EMAILSENDER 3825                
+POS_EMAILRECEIVER 3968                
+POS_SESSION 9266                
+POS_SIDER 9451                
+POS_FILETYPES 4103                
+POS_OS 4302                
+POS_BROWSER 4381                
+POS_SCREENSIZE 4458                
+POS_UNKNOWNREFERER 4532                
+POS_UNKNOWNREFERERBROWSER 4619                
+POS_ORIGIN 4701                
+POS_SEREFERRALS 4836                
+POS_PAGEREFS 4980                
+POS_SEARCHWORDS 5128                
+POS_KEYWORDS 5280                
+POS_MISC 2199                
+POS_ERRORS 5339                
+POS_CLUSTER 3263                
+POS_SIDER_404 5456                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151101091921 1 0 7444186873444
+FirstTime 20151028214135
+LastTime 20151031192416
+LastUpdate 20151102032121 1 0 0 0 0
+TotalVisits 17                  
+TotalUnique 5                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 5                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 7 53 2641747 2 27 87758
+1 5 51 456284 3 22 12905
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 2 14 1173790 1 5 2960
+8 7 132 6637311 3 34 219119
+9 0 0 0 0 0 0
+10 1 29 1618119 1 4 2385
+11 7 145 8799168 5 24 66576
+12 4 23 1325038 3 14 8305
+13 0 0 0 1 3 1810
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 3 50 3411140 2 7 24480
+17 0 0 0 0 0 0
+18 2 19 970671 1 9 128689
+19 4 62 3272701 0 8 4600
+20 6 71 3326879 2 11 6495
+21 2 2 33593 0 70 40250
+22 4 51 2364334 2 17 175625
+23 16 277 11352313 7 69 304871
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 70 979 47383088
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 174 3686518 0 0
+png 19 1302319 0 0
+html 40 936135 0 0
+ttf 3 241956 0 0
+js 203 4193476 0 0
+jpg 500 36295097 0 0
+woff 27 710912 0 0
+gif 13 16675 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 4
+macosx 105
+winxp 501
+winnt 91
+linux 282
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 2
+safari 541
+firefox41.0 438
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 40 40
+From1 0 0
+From2 0 0
+From3 0 0
+From4 30 939
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 33 21780
+206 33 916698
+404 258 148350
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 48
+/de%20todo/Seat%20Web/FONDO%20PANE1.jpg 10 http://02d65e8.netsolhost.com/css/templatemo_style.css
+/images/templatemo_blogimage012.jpg 2 http://02d65e8.netsolhost.com/
+/js/jquery.nivo.slider.pack.js 2 http://02d65e8.netsolhost.com/
+/images/partners/partner3.jpg 2 http://02d65e8.netsolhost.com/
+/images/templatemo_logo.png 2 http://02d65e8.netsolhost.com/
+/css/templatemo_misc.css 1 http://02d65e8.netsolhost.com/
+/de%20todo/Seat%20Web/templatemo_reasonbg.jpg 10 http://02d65e8.netsolhost.com/css/templatemo_style.css
+/WEB%20PRUEBA/images/FONDO%20PANEL2.jpg 10 http://02d65e8.netsolhost.com/css/templatemo_style.css
+/images/portfolio/1.jpg 2 http://02d65e8.netsolhost.com/
+/images/slider/img_3_blank.jpg 2 http://02d65e8.netsolhost.com/
+/images/partners/partner4.jpg 2 http://02d65e8.netsolhost.com/
+/css/circle.css 41 http://02d65e8.netsolhost.com/
+/js/jquery.cycle2.carousel.min.js 2 http://02d65e8.netsolhost.com/
+/css/ddsmoothmenu.css 1 http://02d65e8.netsolhost.com/
+/js/jquery.cycle2.min.js 2 http://02d65e8.netsolhost.com/
+/images/slider/boton.jpg 1 http://02d65e8.netsolhost.com/
+/css/templatemo_style.css 1 http://02d65e8.netsolhost.com/
+/de%20todo/Seat%20Web/FONDO%20PANEL2.jpg 10 http://02d65e8.netsolhost.com/css/templatemo_style.css
+/WEB%20PRUEBA/images/FONDO%20PANE1.jpg 1 http://02d65e8.netsolhost.com/
+/images/portfolio/TEAMkarina.jpg 2 http://02d65e8.netsolhost.com/
+/images/portfolio/9.jpg 2 http://02d65e8.netsolhost.com/
+/js/slimbox2.js 1 http://02d65e8.netsolhost.com/
+/js/jquery.min.js 2 http://02d65e8.netsolhost.com/
+/css/nivo-slider.css 1 http://02d65e8.netsolhost.com/
+/js/lib/jquery.mousewheel-3.0.6.pack.js 55 http://02d65e8.netsolhost.com/
+/js/jquery.singlePageNav.js 2 http://02d65e8.netsolhost.com/
+/js/jquery-1.10.2.min.js 2 http://02d65e8.netsolhost.com/
+/images/portfolio/5.jpg 2 http://02d65e8.netsolhost.com/
+/images/portfolio/8.jpg 2 http://02d65e8.netsolhost.com/
+/js/bootstrap.min.js 2 http://02d65e8.netsolhost.com/
+/de%20todo/Seat%20Web/templatemo_blogimage01.jpg 10 http://02d65e8.netsolhost.com/css/templatemo_style.css
+/css/jquery.bxslider.css 40 http://02d65e8.netsolhost.com/
+/css/bootstrap.min.css 1 http://02d65e8.netsolhost.com/
+/images/portfolio/4.jpg 2 http://02d65e8.netsolhost.com/
+/js/stickUp.min.js 2 http://02d65e8.netsolhost.com/
+/images/partners/partner2.jpg 2 http://02d65e8.netsolhost.com/
+/images/templatemo_blogimage02.jpg 2 http://02d65e8.netsolhost.com/
+/images/portfolio/6.jpg 2 http://02d65e8.netsolhost.com/
+/images/fondo1.png 5 http://02d65e8.netsolhost.com/
+/images/logo%20usda.jpg 2 http://02d65e8.netsolhost.com/
+/images/slider/img_1_blank.jpg 2 http://02d65e8.netsolhost.com/
+/images/partners/partner1.jpg 2 http://02d65e8.netsolhost.com/
+/images/slider/boton1.jpg 1 http://02d65e8.netsolhost.com/
+/images/slider/img_2_blank.jpg 2 http://02d65e8.netsolhost.com/
+/js/ddsmoothmenu.js 2 http://02d65e8.netsolhost.com/
+/css/font-awesome.min.css 1 http://02d65e8.netsolhost.com/
+/css/slimbox2.css 1 http://02d65e8.netsolhost.com/
+/images/portfolio/7.jpg 2 http://02d65e8.netsolhost.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 5
+190.203.147.95 54 721 32659783 20151031192416
+190.74.121.37 9 152 8845422 20151030205144
+186.93.69.145 4 51 2794795 20151029120453
+82.158.65.205 2 44 2906881 20151030115033
+186.167.250.93 1 11 176207 20151029111750
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20151028 15 280 11450138 2
+20151029 41 451 21100255 8
+20151030 13 230 14390124 6
+20151031 1 18 442571 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 2
+5mn-15mn 2
+0s-30s 9
+15mn-30mn 1
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 40 936135 17 6
+/fonts/fontawesome-webfont.woff 27 710912 0 9
+/fonts/fontawesome-webfont.ttf 3 241956 0 2
+END_SIDER

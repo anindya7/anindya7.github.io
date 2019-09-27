@@ -1,0 +1,538 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 200911 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2534                
+POS_VISITOR 10436               
+POS_DAY 15060               
+POS_DOMAIN 3211                
+POS_LOGIN 3441                
+POS_ROBOT 3596                
+POS_WORMS 4247                
+POS_EMAILSENDER 4378                
+POS_EMAILRECEIVER 4521                
+POS_SESSION 15816               
+POS_SIDER 16025               
+POS_FILETYPES 4656                
+POS_OS 4805                
+POS_BROWSER 4936                
+POS_SCREENSIZE 5180                
+POS_UNKNOWNREFERER 5254                
+POS_UNKNOWNREFERERBROWSER 5570                
+POS_ORIGIN 5702                
+POS_SEREFERRALS 5837                
+POS_PAGEREFS 6003                
+POS_SEARCHWORDS 6315                
+POS_KEYWORDS 6533                
+POS_MISC 2197                
+POS_ERRORS 6660                
+POS_CLUSTER 3297                
+POS_SIDER_404 6760                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20091201005007 1 0 21510230352
+FirstTime 20091101002246
+LastTime 20091130235203
+LastUpdate 20091202200350 1 0 0 0 0
+TotalVisits 812                 
+TotalUnique 124                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 124                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 54 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 36 36 3456 10 11 2076
+1 44 44 4128 3 3 75
+2 32 32 3072 11 11 2543
+3 41 53 173517 7 7 774
+4 36 36 3456 5 5 75
+5 49 61 174189 10 10 342
+6 52 76 344058 8 8 342
+7 41 53 3552 12 12 1252
+8 41 41 3936 9 9 413
+9 36 48 173037 128 128 87368
+10 37 37 3552 5 5 485
+11 33 36 94282 7 8 459
+12 36 36 3456 21 21 196
+13 32 32 3072 5 5 267
+14 33 33 3168 31 31 267
+15 33 33 3168 8 8 150
+16 31 31 2976 8 8 125
+17 32 32 3072 14 14 610
+18 32 32 3072 3 3 2079
+19 38 38 3648 7 7 196
+20 41 41 3840 5 5 171
+21 38 38 3456 9 9 3540
+22 37 37 3552 4 4 171
+23 41 41 3936 5 5 146
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 902 977 1024651
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+spider 66 701 20091130232852 50
+bspider 37 996 20091130201121 36
+unknown 17 350 20091130232925 17
+yahoo!\sslurp\schina 12 342 20091126151023 6
+yandex 12 442 20091125101357 10
+crawl 12 726 20091129174902 6
+baiduspider 8 342 20091124152815 6
+\wbot[\/\-] 6 434 20091124071832 2
+exabot 5 50 20091120204343 2
+googlebot 5 1784 20091107111208 2
+ia_archiver 2 121 20091124062518 1
+msnbot 2 25 20091122123609 1
+slurp 5 267 20091124001237 3
+jeeves 2 121 20091107074456 1
+java 1 96 20091129111724 0
+larbin 2 121 20091105205124 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 30 95145 0 0
+png 6 4755 0 0
+html 902 112578 0 0
+js 21 519738 0 0
+jpg 6 291725 0 0
+gif 12 710 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+winxp 192
+winlong 5
+win2000 23
+winnt 1
+linuxfedora 1
+linux 3
+macosx 1
+win2003 2
+Unknown 749
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 16
+msie6.0 70
+msie8.0 16
+nokia 1
+firefox3.5.5 28
+msie5.01 1
+mozilla 743
+firefox1.0 1
+msie7.0 74
+firefox3.5.4 26
+opera 2
+libwww 1
+firefox2.0.0.16 1
+Unknown 6
+firefox3.5.3 1
+safari 5
+firefox3.0.5 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+- 20091126120217
+Mozilla/4.0_(compatible;_SPENG) 20091130235203
+Nokia_5320/UCWEB7.0.0.33/28/999 20091101082909
+Pingdom.com/tools 20091101003033
+amibot_-_http://www.amidalla.de_-_tech@amidalla.com_libwww-perl/5.831 20091117120039
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+- 20091126120217
+Pingdom.com/tools 20091101003033
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 883 883
+From1 0 0
+From2 8 8
+From3 6 6
+From4 5 80
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 7 7
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://tools.pingdom.com 3 3
+http://tg1a56.mail.126.com/a/j/dm3/readhtml.jsp 1 1
+http://www.songliang.com 1 1
+http://www.sitedossier.com/site/www.asknshare.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+asknshare 6
+%f0%f3%f1%f1%ea%e0%ff+%e1%e0%ed%ff 1
+asknshare.netr 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+asknshare 6
+%f0%f3%f1%f1%ea%e0%ff 1
+%e1%e0%ed%ff 1
+asknshare.netr 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+416 5 1570
+404 138 95634
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 93
+/login/edit/admin/login.asp 2 -
+/login/webedit/admin/rdxdlogin.asp 1 -
+/ewebeditor/eweb/admin/okwjlogin.asp 1 -
+/ewebeditor/edit/admin_login.asp 2 -
+/login/ewebedit/admin/login.asp 2 -
+/user/ewebedit/admin/wcqvlogin.asp 1 -
+/cjngmirserver.rar 1 -
+/user/ewebedit/admin/login.asp 2 -
+/ewebeditor/ewebeditor/mxdvadmin_login.asp 1 -
+/login/ewebeditor/vfdpadmin_login.asp 1 -
+/user/eweb/admin/gdeplogin.asp 1 -
+/user/ewebeditor/bxjeadmin_login.asp 1 -
+/ewebeditor/webedit/admin/login.asp 2 -
+/ewebeditor/webedit/ftzjadmin_login.asp 1 -
+/user/ewebeditor/admin/yxfwlogin.asp 1 -
+/login/ewebedit/admin/fcyclogin.asp 1 -
+/ewebeditor/ewebedit/admin/login.asp 2 -
+/login/webeditor/admin/kafslogin.asp 1 -
+/login/edit/vtpeadmin_login.asp 1 -
+/login/eweb/admin/login.asp 2 -
+/login/ewebeditor/admin/rqfllogin.asp 1 -
+/m/ 1 -
+/login/ewebeditor/admin/login.asp 2 -
+/ewebeditor/edit/ekzgadmin_login.asp 1 -
+/ewebeditor/ewebeditor/admin/uiktlogin.asp 1 -
+/user/edit/admin/fgwglogin.asp 1 -
+/user/webedit/admin/lpfnlogin.asp 1 -
+/ewebeditor/eweb/admin_login.asp 2 -
+/user/editor/rzypadmin_login.asp 1 -
+/user/edit/admin/login.asp 2 -
+/ewebeditor/ewebedit/lepqadmin_login.asp 1 -
+/ewebeditor/edit/admin/login.asp 2 -
+/mobile/ 1 -
+/ewebeditor/ewebeditor/admin/login.asp 2 -
+/user/editor/admin_login.asp 2 -
+/login/editor/admin_login.asp 2 -
+/ewebeditor/webeditor/admin_login.asp 2 -
+/user/webedit/admin_login.asp 2 -
+/login/eweb/admin/nhiflogin.asp 1 -
+/user/webeditor/qxqdadmin_login.asp 1 -
+/user/webedit/ymvhadmin_login.asp 1 -
+/mobi/ 1 -
+/login/edit/admin_login.asp 2 -
+/login/webedit/admin_login.asp 2 -
+/login/editor/admin/login.asp 2 -
+/user/webeditor/admin_login.asp 2 -
+/user/edit/admin_login.asp 2 -
+/user/editor/admin/qlbdlogin.asp 1 -
+/user/webedit/admin/login.asp 2 -
+/login/webeditor/admin_login.asp 2 -
+/&quot 1 -
+/login/editor/admin/qzvklogin.asp 1 -
+/mirserver.rar 4 -
+/user/webeditor/admin/login.asp 2 -
+/login/webeditor/admin/login.asp 2 -
+/ewebeditor/eweb/admin/login.asp 2 -
+/ewebeditor/editor/admin_login.asp 2 -
+/ewebeditor/ewebedit/admin_login.asp 2 -
+/ewebeditor/editor/admin/mqfdlogin.asp 1 -
+/ewebeditor/ewebeditor/admin_login.asp 2 -
+/ewebeditor/webedit/admin_login.asp 2 -
+/ewebeditor/webeditor/admin/pkzmlogin.asp 1 -
+/user/ewebedit/admin_login.asp 2 -
+/%22http://www.asknshare.net/%22 1 -
+/login/editor/ossuadmin_login.asp 1 -
+/user/webeditor/admin/bjzulogin.asp 1 -
+/login/webeditor/mrpcadmin_login.asp 1 -
+/login/ewebedit/scvtadmin_login.asp 1 -
+/ewebeditor/webeditor/admin/login.asp 2 -
+/ewebeditor/edit/admin/invulogin.asp 1 -
+/ewebeditor/webedit/admin/wxwnlogin.asp 1 -
+/iphone/ 1 -
+/user/editor/admin/login.asp 2 -
+/login/edit/admin/tufclogin.asp 1 -
+/ymcgmirserver.rar 1 -
+/user/ewebeditor/admin_login.asp 2 -
+/ewebeditor/editor/admin/login.asp 2 -
+/user/edit/tmgtadmin_login.asp 1 -
+/user/ewebeditor/admin/login.asp 2 -
+/login/webedit/silfadmin_login.asp 1 -
+/user/ewebedit/kbuwadmin_login.asp 1 -
+/login/eweb/admin_login.asp 2 -
+/user/eweb/admin/login.asp 2 -
+/ewebeditor/webeditor/scjkadmin_login.asp 1 -
+/login/eweb/okxpadmin_login.asp 1 -
+/user/eweb/bcjsadmin_login.asp 1 -
+/user/eweb/admin_login.asp 2 -
+/ewebeditor/ewebedit/admin/bmijlogin.asp 1 -
+/ewebeditor/editor/hrcdadmin_login.asp 1 -
+/login/ewebeditor/admin_login.asp 2 -
+/login/webedit/admin/login.asp 2 -
+/ewebeditor/eweb/xolxadmin_login.asp 1 -
+/login/ewebedit/admin_login.asp 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 124
+76.167.164.5 245 245 23520 20091130225358
+206.72.71.173 226 226 21696 20091130190132
+206.72.71.164 69 69 6624 20091130235203
+64.136.159.191 64 64 6144 20091130131106
+221.192.236.70 37 49 172653 20091123193730
+114.80.93.71 26 26 2496 20091129235135
+124.207.228.50 17 17 1632 20091130053208
+4.167.168.176 7 7 672 20091116041216
+4.167.169.213 6 6 576 20091126002508
+58.247.152.223 5 29 169773 20091126070841
+4.167.170.223 3 3 288 20091113131040
+4.167.168.17 1 1 96 20091114073519
+4.167.175.78 3 3 288 20091104061408
+69.71.222.186 1 1 96 20091104051651
+4.167.171.132 2 2 192 20091115124043
+121.229.55.205 1 1 96 20091125082014
+125.86.222.97 1 1 96 20091124050123
+58.40.109.173 1 1 96 20091128082503
+4.167.170.247 3 3 288 20091125163703
+222.69.28.90 1 1 96 20091127195319
+58.246.68.58 1 1 96 20091130043836
+116.231.8.193 1 1 96 20091110043825
+221.194.136.39 2 2 192 20091112055045
+4.167.172.15 1 1 96 20091112164139
+220.232.72.83 1 1 96 20091115074111
+74.52.245.146 1 1 96 20091117171240
+4.167.173.61 4 4 384 20091117062745
+38.105.83.11 1 1 96 20091112143728
+116.231.109.195 1 1 96 20091124031546
+213.239.223.4 1 1 96 20091117120039
+124.115.1.8 1 1 96 20091119205908
+4.167.175.227 3 3 288 20091109090547
+121.235.244.213 1 1 96 20091127225353
+4.167.173.200 3 3 288 20091123042328
+58.33.51.6 1 1 0 20091113073621
+58.61.164.39 1 1 96 20091119204458
+4.167.170.28 2 2 192 20091102211742
+58.24.107.202 2 14 169773 20091114092803
+4.167.169.181 1 1 96 20091129002256
+4.167.172.129 4 4 384 20091105003745
+4.167.168.229 3 3 288 20091103212937
+4.167.168.169 4 4 384 20091106202255
+58.61.164.139 1 1 96 20091119203147
+123.119.234.54 1 1 96 20091129214517
+222.65.6.218 1 1 96 20091101002300
+123.119.239.198 2 2 192 20091129013128
+95.24.156.9 1 1 96 20091126150650
+112.84.19.212 1 1 96 20091102101338
+60.10.208.110 1 1 96 20091126102838
+4.167.172.186 3 3 288 20091106113739
+4.167.172.159 2 2 192 20091109155256
+123.116.141.239 1 1 96 20091127045139
+4.167.171.9 1 1 96 20091104110440
+4.167.172.216 2 2 192 20091103011005
+58.246.48.226 1 1 96 20091110232617
+4.167.171.40 3 3 288 20091125035542
+4.167.170.66 1 1 96 20091105052804
+64.131.72.220 2 2 192 20091126120217
+174.133.177.66 2 2 192 20091117235335
+58.61.164.40 1 1 96 20091119204923
+4.167.172.78 1 1 96 20091110013500
+4.167.173.96 2 2 192 20091110151126
+58.33.57.97 2 5 91306 20091108115758
+4.167.169.174 3 3 288 20091121025125
+72.44.46.185 1 1 96 20091110211801
+4.167.173.27 1 1 96 20091127133024
+116.231.4.40 1 1 96 20091127072653
+4.167.172.39 3 3 288 20091119001315
+69.58.178.28 1 1 96 20091116050607
+58.252.252.23 1 13 169677 20091126064204
+123.119.236.125 1 1 96 20091130014958
+4.167.172.66 3 3 288 20091124033854
+4.167.169.49 2 2 192 20091126165450
+4.167.174.174 2 2 192 20091118142723
+4.167.171.6 3 3 288 20091117121714
+4.167.173.45 2 2 192 20091123140423
+220.231.182.114 3 3 288 20091112075039
+123.150.187.66 1 1 96 20091101082909
+4.167.170.92 4 4 384 20091120023609
+4.167.172.252 3 3 288 20091101150533
+4.167.175.22 1 1 96 20091108055434
+123.116.143.50 1 1 96 20091130201742
+220.234.176.253 1 1 96 20091118005926
+213.192.60.19 1 1 96 20091126180253
+124.115.1.7 1 1 96 20091119211312
+4.167.174.165 3 3 288 20091105225722
+4.167.169.179 3 3 288 20091114024442
+123.116.138.73 2 2 192 20091125192722
+75.125.229.138 1 1 96 20091129141213
+4.167.170.134 2 2 192 20091128163813
+4.167.169.38 2 2 192 20091121084017
+4.167.174.81 4 4 384 20091107125131
+205.178.184.189 2 2 96 20091123205444
+58.61.164.140 1 1 96 20091119225220
+4.167.170.180 5 5 480 20091120102245
+4.167.172.158 1 1 96 20091130205745
+116.226.202.18 1 1 96 20091111071134
+205.203.134.197 1 1 96 20091107014043
+123.119.242.88 2 2 192 20091128095657
+124.237.86.10 1 1 96 20091119060445
+4.167.168.7 1 1 96 20091121182446
+4.167.172.2 1 1 96 20091127231214
+211.136.115.39 2 2 192 20091118035840
+59.52.145.53 1 13 169677 20091116033921
+66.235.124.132 2 2 192 20091129050642
+59.174.81.29 1 1 96 20091124150215
+4.167.168.248 1 1 96 20091101205405
+72.94.249.37 1 1 96 20091117012505
+4.167.171.111 2 2 192 20091119125226
+61.171.68.184 1 1 96 20091114100153
+4.167.174.246 1 1 96 20091103065827
+58.61.164.141 1 1 96 20091119230611
+94.30.133.2 1 1 96 20091130201234
+4.167.173.245 2 2 192 20091102123458
+83.140.19.25 2 2 192 20091101003033
+4.167.172.84 3 3 288 20091124151900
+4.167.173.80 1 1 96 20091130072229
+4.167.175.188 4 4 384 20091117225659
+4.167.168.168 3 3 288 20091114201051
+71.231.182.232 1 1 96 20091102011222
+4.167.174.92 3 3 288 20091116155359
+123.116.141.20 2 2 192 20091128030811
+4.167.171.31 1 1 96 20091111142626
+4.167.175.72 2 2 192 20091122164059
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20091101 27 27 2592 23
+20091102 30 30 2880 27
+20091103 29 29 2784 29
+20091104 30 30 2880 27
+20091105 30 42 172461 30
+20091106 25 25 2400 20
+20091107 28 28 2688 25
+20091108 29 32 93898 27
+20091109 28 28 2688 24
+20091110 32 32 3072 28
+20091111 29 29 2784 26
+20091112 31 31 2976 26
+20091113 29 29 2688 27
+20091114 30 42 172461 24
+20091115 29 29 2784 26
+20091116 30 42 172461 28
+20091117 32 32 3072 26
+20091118 31 31 2880 27
+20091119 37 37 3456 36
+20091120 31 31 2784 27
+20091121 28 28 2592 27
+20091122 28 28 2688 27
+20091123 31 31 2880 29
+20091124 28 28 2688 26
+20091125 31 31 2976 28
+20091126 38 74 342522 33
+20091127 29 29 2784 27
+20091128 31 31 2976 29
+20091129 31 31 2976 25
+20091130 30 30 2880 28
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 14
+5mn-15mn 2
+0s-30s 749
+15mn-30mn 2
+30s-2mn 1
+2mn-5mn 1
+30mn-1h 43
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 893 84960 806 807
+/home.html 8 27522 5 4
+http://www.asknshare.com/ 1 96 1 1
+END_SIDER

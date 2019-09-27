@@ -1,0 +1,715 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201512 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2535                
+POS_VISITOR 15437               
+POS_DAY 24613               
+POS_DOMAIN 3380                
+POS_LOGIN 3613                
+POS_ROBOT 3768                
+POS_WORMS 4433                
+POS_EMAILSENDER 4564                
+POS_EMAILRECEIVER 4707                
+POS_SESSION 25466               
+POS_SIDER 25667               
+POS_FILETYPES 4842                
+POS_OS 5086                
+POS_BROWSER 5210                
+POS_SCREENSIZE 5626                
+POS_UNKNOWNREFERER 5700                
+POS_UNKNOWNREFERERBROWSER 6542                
+POS_ORIGIN 7165                
+POS_SEREFERRALS 7308                
+POS_PAGEREFS 7465                
+POS_SEARCHWORDS 8249                
+POS_KEYWORDS 8468                
+POS_MISC 2199                
+POS_ERRORS 8596                
+POS_CLUSTER 3469                
+POS_SIDER_404 8726                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160101011414 1 0 9495516924525
+FirstTime 20151201001655
+LastTime 20151231204226
+LastUpdate 20160102031903 1 0 0 0 0
+TotalVisits 292                 
+TotalUnique 162                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 262                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 17 207 8698793 8 30 183749
+1 13 127 4302719 6 15 45496
+2 7 9 674397 0 2 77182
+3 9 38 975410 9 15 191455
+4 33 122 4678314 63 590 10531026
+5 8 34 1026476 6 13 114221
+6 14 147 8234932 12 37 529261
+7 19 217 9559932 19 41 407320
+8 13 176 9768303 20 120 3780216
+9 19 149 8073099 24 91 3035992
+10 26 427 24752172 17 49 77503
+11 28 293 13543324 27 83 258052
+12 17 161 8535796 8 23 50266
+13 21 232 11626942 7 53 621355
+14 28 390 20154948 23 87 1208821
+15 40 691 24927393 26 131 403597
+16 5 50 2711481 5 8 41322
+17 28 242 11910984 10 49 431353
+18 13 92 4526942 6 17 83432
+19 18 104 2376368 33 73 1072729
+20 12 104 5417194 9 21 47306
+21 33 340 16684166 27 146 992411
+22 12 97 5438903 7 28 257124
+23 11 108 4786245 13 36 615968
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 444 4557 213385233
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+spider 436 10196947 20151230040105 0
+googlebot 116 3145931 20151230221553 0
+phantom 88 5109608 20151204083410 0
+\wbot[\/\-] 11 394325 20151229230200 0
+python 9 71048 20151231204238 0
+spiderbot 8 507851 20151216194620 0
+commons\-httpclient 6 1318158 20151231144446 0
+mj12bot 6 215626 20151223210613 0
+baiduspider 5 204935 20151229064424 0
+yandex 4 132238 20151214055450 0
+surveybot 2 74552 20151224055250 0
+java 1 76607 20151220020348 0
+slurp 1 37276 20151214035919 0
+netcraft 1 37276 20151209190442 0
+crawl 1 37276 20151219035432 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 752 14427642 0 0
+eot 5 137280 0 0
+png 93 5900293 0 0
+ttf 2 121888 0 0
+woff 85 3226700 0 0
+html 342 10850678 0 0
+js 971 20561478 0 0
+jpg 2264 156792577 0 0
+gif 33 41707 0 0
+svg 10 1324990 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 1370
+winlong 1
+winxp 579
+win2003 9
+winnt 1572
+win2000 4
+Unknown 186
+linux 836
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 27
+firefox28.0 11
+firefox40.0 2
+firefox42.0 566
+firefox21.0 5
+curl 1
+firefox38.0 137
+firefox31.0 2
+msie8.0 129
+firefox6.0.2 21
+firefox13.0.1 3
+firefox33.0 2
+mozilla 14
+firefox1.0 1
+netscape5.0 5
+firefox43.0 51
+firefox14.0.1 1
+firefox3.0.6 4
+msie7.0 9
+msie10.0 11
+firefox6.0 4
+firefox41.0 2
+firefox3.6.3 1
+msie9.0 73
+Unknown 180
+firefox36.0 3
+safari 3318
+firefox11.0 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 13
+Mozilla/5.0/Firefox/42.0_(contactbigdatafr_at_gmail.com) 20151229062653
+visionutils/0.2 20151201142953
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20151219191022
+Scrapy/0.24.5_(_http://scrapy.org) 20151205131536
+- 20151231134453
+Google_favicon 20151207133128
+Curl/PHP_5.6.14-0_deb8u1_(http://github.com/shuber/curl) 20151225080552
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20151231214530
+WhatsApp 20151207090622
+NextGenSearchBot_1_(for_information_visit_http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx) 20151226195432
+Mechanize/2.7.2_Ruby/2.0.0p481_(http://github.com/sparklemotion/mechanize/) 20151230012652
+http-kit/2.0 20151215005011
+HTTPClient/1.0_(2.7.0.1,_ruby_2.2.3_(2015-08-18)) 20151211174409
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 10
+visionutils/0.2 20151201142953
+Scrapy/0.24.5_(_http://scrapy.org) 20151205131536
+- 20151231134453
+Google_favicon 20151207133128
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20151231214530
+NextGenSearchBot_1_(for_information_visit_http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx) 20151226195432
+WhatsApp 20151207090622
+Mechanize/2.7.2_Ruby/2.0.0p481_(http://github.com/sparklemotion/mechanize/) 20151230012652
+http-kit/2.0 20151215005011
+HTTPClient/1.0_(2.7.0.1,_ruby_2.2.3_(2015-08-18)) 20151211174409
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 263 484
+From1 0 0
+From2 35 81
+From3 42 42
+From4 104 3950
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 35 81
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 15
+https://www.facebook.com 11 11
+http://scripted.com/sustainable-energy-and-agriculture-technology.com 8 8
+http://burger-imperia.com 4 4
+http://uptimechecker.com/sustainable-energy-and-agriculture-technology.com 3 3
+http://mail.163.com/js6/main.jsp 3 3
+http://www.facebook.com/l.php 2 2
+http://pizza-imperia.com 2 2
+http://l.facebook.com/lsr.php 2 2
+http://dtman.prime-vendor.com/clientlisting/viewclient/index.asp 1 1
+http://buttons-for-website.com 1 1
+http://pizza-tycoon.com 1 1
+https://www.linkedin.com 1 1
+http://hundejo.com 1 1
+http://www.linkedin.com 1 1
+http://uptimebot.net/sustainable-energy-and-agriculture-technology.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+http+%2f%2fwww.sustainable-energy-and-agriculture-technology.com 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+http 2
+%2f%2fwww.sustainable-energy-and-agriculture-technology.com 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 130 84919
+206 164 2970701
+404 768 441600
+301 1 283
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 89
+/images/prettyPhoto/default/sprite_prev.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/robots.txt 65 -
+/images/prettyPhoto/light_rounded/btnNext.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/dark_square/sprite.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/light_rounded/btnPrevious.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/dark_square/btnPrevious.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/admin.php 1 -
+/index.rdf 2 -
+/images/prettyPhoto/facebook/btnPrevious.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/WEB%20PRUEBA/images/FONDO%20PANEL2.jpg 5 http://www.sustainable-energy-and-agriculture-technology.com/
+/fonts/flexslider-icon.eot 2 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/css/circle.css 168 http://www.sustainable-energy-and-agriculture-technology.com/
+/feed/ 1 -
+/images/prettyPhoto/light_rounded/sprite.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/application/x-ecmascript 1 -
+/rss.xml 1 -
+/index.xml 2 -
+/WEB%20PRUEBA/images/FONDO%20PANE1.jpg 5 http://www.sustainable-energy-and-agriculture-technology.com/
+/images/prettyPhoto/dark_rounded/loader.gif 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/facebook/loader.gif 2 http://www.sustainable-energy-and-agriculture-technology.com/
+/images/prettyPhoto/facebook/contentPatternLeft.png 2 http://www.sustainable-energy-and-agriculture-technology.com/
+/js/lib/jquery.mousewheel-3.0.6.pack.js 181 http://www.sustainable-energy-and-agriculture-technology.com/
+/th1s_1s_a_4o4.html 29 http://www.google.com/url
+/index.rss 2 -
+/images/prettyPhoto/dark_square/btnNext.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/loaded 1 -
+/jquery.org/license 1 -
+/apple-touch-icon-76x76.png 1 -
+/fonts/flexslider-icon.ttf 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/dark_rounded/contentPattern.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/apple-touch-icon-76x76-precomposed.png 1 -
+/css/jquery.bxslider.css 170 http://www.sustainable-energy-and-agriculture-technology.com/
+/images/prettyPhoto/default/sprite_x.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/default/sprite_next.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/apple-touch-icon-120x120.png 2 -
+/fonts/flexslider-icon.svg 5 http://www.sustainable-energy-and-agriculture-technology.com/
+/text/plain 1 -
+/images/prettyPhoto/dark_square/loader.gif 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/default/sprite_y.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/administrator/ 1 -
+/administrator 2 -
+/apple-touch-icon-120x120-precomposed.png 2 -
+/images/prettyPhoto/facebook/contentPatternBottom.png 2 http://www.sustainable-energy-and-agriculture-technology.com/
+/text 1 -
+/===n 1 -
+/a 28 -
+/wp-login.php 1 -
+/images/prettyPhoto/default/sprite.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/text/html 1 -
+/here/////////////////////////// 1 -
+/Set/remove 1 -
+/images/prettyPhoto/light_square/btnPrevious.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/templatemo_menu_hover.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/ddsmoothmenu.css
+/text/javascript 1 -
+/apple-touch-icon.png 4 -
+/n 1 -
+/fonts/flexslider-icon.woff 5 http://www.sustainable-energy-and-agriculture-technology.com/
+/images/prettyPhoto/default/loader.gif 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/js/jquery.cycle2.js.map 4 -
+/text/css 1 -
+/images/prettyPhoto/facebook/btnNext.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/facebook/sprite.png 2 http://www.sustainable-energy-and-agriculture-technology.com/
+/Download/ 1 -
+/blog/ 1 -
+/aministator 1 -
+/select 1 -
+/text/xml 1 -
+/images/prettyPhoto/facebook/contentPatternRight.png 2 http://www.sustainable-energy-and-agriculture-technology.com/
+/in/ 1 -
+/line- 1 -
+/images/prettyPhoto/default/default_thumb.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/apple-touch-icon-precomposed.png 1 -
+/images/prettyPhoto/facebook/default_thumbnail.gif 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/light_rounded/loader.gif 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/blog/feed/ 1 -
+/MIT/GPL 1 -
+/index.atom 2 -
+/de%20todo/Seat%20Web/templatemo_blogimage01.jpg 5 http://www.sustainable-energy-and-agriculture-technology.com/
+/images/prettyPhoto/dark_rounded/btnNext.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/C%7c/Documents%20and%20Settings/Administrator/My%20Documents/WEB%20PRUEBA/images/fondo3.jpg 4 http://www.sustainable-energy-and-agriculture-technology.com/
+/images/prettyPhoto/light_square/btnNext.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/images/prettyPhoto/light_square/sprite.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/css/images/templatemo_bullet.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_style.css
+/images/prettyPhoto/dark_rounded/sprite.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+/application/javascript 1 -
+/application/x-www-form-urlencoded 1 -
+/atom.xml 2 -
+/images/prettyPhoto/facebook/contentPatternTop.png 2 http://www.sustainable-energy-and-agriculture-technology.com/
+/images/prettyPhoto/dark_rounded/btnPrevious.png 1 http://www.sustainable-energy-and-agriculture-technology.com/css/templatemo_misc.css
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 262
+201.210.175.157 58 774 32662392 20151230192324
+75.105.91.18 25 232 11906193 20151231085101
+201.242.141.196 16 349 8504784 20151202123619
+108.84.221.55 14 326 18124936 20151224203521
+69.175.22.218 13 32 1041057 20151226040309
+192.241.215.235 11 66 3213574 20151219212538
+112.124.99.107 9 14 661022 20151210172758
+212.71.246.31 8 8 298208 20151231134453
+69.175.67.58 7 19 540544 20151228040408
+66.11.128.152 7 7 260932 20151230024429
+173.252.73.97 0 1 305704 
+66.249.88.203 0 10 832133 
+66.220.156.100 0 1 305704 
+190.121.232.67 2 45 2582774 20151207101207
+173.252.89.58 0 1 116769 
+69.36.53.123 3 48 2613073 20151221064812
+186.167.250.101 1 16 1406015 20151201182548
+66.220.156.106 1 1 37276 20151223015952
+66.220.146.28 0 1 305704 
+68.9.49.85 0 1 76607 
+186.93.171.139 3 92 2651973 20151207212321
+173.252.122.121 0 2 224530 
+188.166.85.191 2 2 0 20151219173913
+54.183.241.70 1 1 37276 20151216194607
+173.252.90.98 0 1 305704 
+173.252.88.95 0 1 305704 
+66.220.146.23 0 2 628242 
+54.212.38.238 1 1 35004 20151207130523
+173.252.102.112 0 1 30918 
+54.212.59.240 1 1 37276 20151214130819
+173.252.75.114 0 2 187400 
+173.252.81.118 0 1 30918 
+104.207.156.114 1 1 37276 20151227055818
+173.252.89.54 0 2 96882 
+66.102.6.150 2 22 1477322 20151204170616
+202.46.53.197 0 1 2248 
+173.252.75.119 0 4 212762 
+172.245.236.61 1 1 37276 20151210024206
+173.252.115.84 0 1 30374 
+173.252.90.241 0 1 305704 
+109.201.133.100 1 1 37276 20151220202735
+54.184.70.252 2 2 74552 20151228153955
+45.79.87.95 2 2 74552 20151220000133
+52.91.85.155 3 31 732872 20151229133018
+187.143.35.17 2 46 2584821 20151213163503
+195.245.112.150 1 1 37276 20151227183008
+52.23.235.74 1 1 37276 20151224075908
+89.234.157.254 1 1 37276 20151216103435
+162.201.188.235 0 1 305704 
+213.138.93.31 1 1 37276 20151213222004
+64.110.129.13 1 1 37276 20151213232051
+173.252.75.116 0 1 30374 
+173.252.81.114 0 1 76607 
+173.252.81.119 0 2 35682 
+104.197.184.168 1 1 37276 20151215005011
+173.252.122.120 0 1 63658 
+50.156.25.164 4 4 149104 20151230194334
+96.127.176.50 4 9 192632 20151230040046
+186.185.221.69 1 1 35631 20151207212025
+173.252.88.88 0 1 305704 
+54.166.44.243 1 1 37276 20151211095509
+202.46.48.203 0 1 2150 
+52.90.119.49 3 31 732872 20151218075849
+67.212.162.98 3 8 130441 20151218041031
+69.58.178.59 1 1 37276 20151218120109
+54.163.26.110 2 20 495611 20151226073458
+173.252.90.86 0 1 107761 
+184.154.69.58 2 5 91405 20151214045706
+31.13.113.89 0 1 107761 
+202.46.52.203 0 1 26912 
+192.241.225.199 1 19 451179 20151216151636
+54.212.19.181 1 1 35004 20151207103750
+202.46.56.114 1 1 37276 20151223192343
+173.252.90.96 0 1 305704 
+54.212.19.123 3 3 111828 20151216002855
+52.91.244.66 1 1 37276 20151229062653
+54.84.111.12 1 1 37276 20151210050853
+186.167.245.242 1 20 1099159 20151202090018
+173.252.102.115 0 3 153471 
+173.252.89.52 0 1 110793 
+23.94.203.175 1 1 37276 20151209032109
+62.212.73.49 1 1 37276 20151214222618
+173.252.88.90 0 1 305704 
+201.210.128.41 6 137 5299441 20151208053012
+66.220.158.110 0 1 107761 
+173.252.75.118 0 1 33834 
+66.249.92.179 1 1 37276 20151219191022
+66.102.6.154 0 14 553218 
+173.252.102.113 0 1 63658 
+173.252.90.99 0 1 107761 
+173.252.115.90 0 2 35682 
+69.171.230.106 0 1 305704 
+23.106.178.4 1 1 37276 20151213190204
+173.252.73.98 0 1 305704 
+54.87.133.132 1 1 37276 20151226072726
+173.252.102.119 0 1 30831 
+69.124.68.230 2 46 2584821 20151213082136
+95.191.131.93 1 1 37276 20151228094816
+173.252.122.123 0 3 172542 
+72.83.221.242 2 50 2638651 20151229145222
+45.55.134.8 1 11 274537 20151213071359
+70.171.203.14 2 46 2584821 20151217104431
+173.252.102.116 0 5 253753 
+176.58.113.83 2 2 74552 20151221112638
+173.252.75.112 0 3 92361 
+52.33.190.65 6 6 223656 20151218001538
+66.220.158.105 0 1 305704 
+202.46.51.104 0 1 22416 
+54.188.55.161 1 1 37276 20151221104237
+45.33.61.138 3 3 111828 20151223162151
+45.55.135.226 1 11 274537 20151222120145
+173.252.73.114 0 1 305704 
+66.220.158.99 0 1 107761 
+173.252.122.117 0 3 84213 
+54.188.53.151 1 1 37276 20151221130649
+66.220.146.29 0 1 305704 
+173.232.205.176 1 1 33261 20151205173839
+66.220.158.109 0 1 107761 
+186.167.249.75 0 1 28252 
+104.197.65.174 1 1 37276 20151225080552
+5.196.80.37 2 46 2584821 20151211220250
+104.237.144.241 1 1 33261 20151204220127
+198.74.51.71 1 1 37276 20151231110331
+182.66.81.93 2 46 2584821 20151231010121
+173.252.88.91 0 2 611408 
+40.143.1.4 1 11 274537 20151226195429
+66.220.158.114 0 1 107761 
+69.171.230.122 0 1 305704 
+89.100.103.154 5 55 2715251 20151208154309
+69.171.231.227 0 25 1648771 
+93.174.90.30 1 1 37276 20151231053953
+54.88.80.148 1 1 33261 20151203125713
+173.252.73.119 0 1 305704 
+45.55.133.227 1 11 274537 20151231013854
+45.33.104.237 3 3 111828 20151221115106
+202.46.51.167 1 1 0 20151216071730
+202.46.54.22 1 1 0 20151227220023
+192.227.201.65 1 1 37276 20151211174409
+173.252.115.85 0 2 153289 
+66.102.6.158 0 8 524264 
+173.252.122.119 0 1 33224 
+202.46.52.156 0 1 19257 
+202.46.53.53 1 1 37276 20151215121228
+92.222.12.95 1 1 33261 20151202161656
+54.188.104.104 2 2 74552 20151222214155
+54.212.21.34 1 1 37276 20151214104434
+52.0.89.236 1 1 37276 20151216013620
+107.72.164.94 2 76 4136505 20151221115619
+173.252.114.116 1 1 33261 20151205140709
+52.91.208.217 1 1 33261 20151204064900
+173.252.112.98 0 1 305704 
+66.249.88.198 2 23 1213406 20151225080553
+120.42.97.219 1 1 37276 20151223212449
+66.220.158.106 0 1 305704 
+173.252.122.118 0 1 30374 
+66.220.156.97 0 1 305704 
+202.46.54.161 1 1 33261 20151205221230
+173.252.88.180 0 1 107761 
+202.46.55.91 0 1 26912 
+173.252.81.115 0 1 116769 
+66.249.88.67 4 4 141952 20151213173110
+213.37.17.50 6 142 5332185 20151206153448
+54.174.159.3 1 1 37276 20151224090559
+202.46.53.164 1 1 35004 20151206203330
+69.171.230.96 0 1 305704 
+66.220.156.104 0 1 305704 
+54.153.110.203 3 3 107813 20151226181154
+69.12.26.202 5 111 5918979 20151209150056
+54.183.204.4 1 1 37276 20151213040525
+173.252.88.94 0 2 329556 
+52.23.42.198 6 6 214245 20151231204226
+121.97.26.98 2 28 1281032 20151231102807
+173.252.90.104 0 1 305704 
+218.80.229.4 6 137 2653197 20151201010211
+119.147.146.189 2 6 197864 20151215084638
+12.91.110.190 2 47 2612568 20151201090538
+184.177.115.34 4 93 5192504 20151209103118
+173.252.89.55 0 1 76607 
+94.242.228.108 1 1 37276 20151218110250
+107.23.56.124 2 2 67400 20151205131536
+52.90.236.77 3 31 732872 20151222034534
+104.236.54.82 1 1 37276 20151217072724
+173.252.75.113 0 1 30831 
+202.46.49.76 1 1 33261 20151202141735
+202.46.50.14 1 1 37276 20151213184831
+173.252.90.247 0 1 305704 
+31.13.109.116 0 1 305704 
+66.249.88.208 0 13 539282 
+118.102.223.123 2 47 2613073 20151211001753
+69.171.230.112 0 1 305704 
+54.84.223.134 3 31 732872 20151220143805
+69.171.231.225 2 24 1073833 20151219212218
+69.171.231.226 2 34 2150981 20151216150638
+54.188.56.234 2 2 74552 20151230012652
+173.252.81.116 0 3 174391 
+45.79.107.83 4 4 149104 20151225115440
+76.247.182.164 2 45 2583056 20151206103934
+180.191.135.246 2 28 1393511 20151224134524
+129.104.29.1 2 47 2607683 20151221040450
+109.163.234.4 1 1 37276 20151212183623
+23.94.15.74 1 1 37276 20151209192545
+45.55.229.153 1 1 33261 20151202165841
+121.97.46.251 4 72 3944956 20151231102703
+54.189.181.157 2 2 72907 20151209051150
+202.46.49.94 1 1 0 20151229223512
+66.220.156.101 0 1 305704 
+45.55.229.234 1 1 37276 20151230013205
+24.199.17.38 2 45 2578544 20151201154512
+173.252.89.57 0 4 200817 
+66.249.88.56 5 5 176078 20151225212737
+52.23.244.182 1 1 33261 20151204105020
+54.183.196.40 2 2 74552 20151227181619
+202.46.51.109 1 1 0 20151223015226
+173.252.90.105 0 1 107761 
+38.100.21.67 1 9 213918 20151213014023
+54.165.56.42 1 1 33261 20151203034835
+54.88.160.70 1 1 33261 20151204030228
+202.46.48.135 1 2 49477 20151211041454
+173.252.89.53 0 1 30918 
+173.252.112.119 0 1 305704 
+46.118.118.215 1 1 37276 20151210100138
+207.90.2.16 3 3 109556 20151222121627
+173.252.81.113 0 2 109186 
+173.252.102.117 0 2 184368 
+162.248.100.80 1 1 37276 20151218182011
+200.8.79.150 2 50 2617357 20151201142848
+202.46.58.113 0 1 7321 
+173.252.115.86 0 3 97976 
+104.236.112.178 1 1 37276 20151210084217
+64.93.214.69 2 47 2607683 20151217154717
+78.137.4.96 3 3 111828 20151224150747
+173.252.75.115 0 1 45528 
+23.226.237.249 1 1 33261 20151201181153
+109.125.18.219 2 45 2580036 20151208083803
+54.188.96.208 1 1 37276 20151228104445
+173.252.115.91 0 5 399678 
+173.252.89.59 0 2 50379 
+119.147.146.192 1 3 98932 20151210055934
+202.46.51.210 1 1 0 20151221110001
+173.252.89.56 0 1 33834 
+192.227.251.224 1 1 37276 20151222230532
+31.13.112.119 0 1 305704 
+41.215.221.165 1 25 705533 20151204051344
+136.243.48.83 1 1 37276 20151214155924
+173.252.90.102 0 1 305704 
+52.13.3.51 1 1 34139 20151201111953
+202.46.57.166 1 1 0 20151230143808
+116.227.227.25 5 98 5156547 20151211211000
+79.134.234.247 1 1 37276 20151219141127
+173.252.122.122 0 2 108458 
+186.92.18.99 3 49 2633888 20151207125936
+69.171.231.224 0 9 296057 
+45.55.229.98 1 1 37276 20151223175856
+202.46.50.156 1 1 0 20151225094731
+78.47.47.188 1 1 34139 20151201060300
+31.13.113.95 0 1 107761 
+52.70.48.63 1 1 37276 20151220020347
+74.74.206.94 4 98 5231378 20151210105139
+31.13.102.119 0 1 305704 
+173.252.81.117 0 2 65685 
+198.50.145.72 1 1 37276 20151215170120
+173.252.73.96 0 1 305704 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20151201 46 761 26634418 16
+20151202 5 34 1451425 5
+20151203 6 38 835821 6
+20151204 10 82 4332295 9
+20151205 9 64 3163106 7
+20151206 23 260 12184461 10
+20151207 22 344 13544043 14
+20151208 29 411 20575762 15
+20151209 17 216 11355843 12
+20151210 25 154 8444201 12
+20151211 14 182 9455959 9
+20151212 6 85 3890679 4
+20151213 15 129 7201537 13
+20151214 8 9 300893 8
+20151215 8 36 2302575 8
+20151216 12 136 7790092 10
+20151217 9 102 6389103 5
+20151218 18 150 6863788 13
+20151219 19 121 6114718 8
+20151220 10 57 2951620 8
+20151221 22 350 17469969 12
+20151222 13 109 4168252 10
+20151223 12 88 4723454 11
+20151224 12 85 4406073 10
+20151225 8 68 3449551 7
+20151226 7 36 925052 6
+20151227 5 22 974835 5
+20151228 8 62 3213679 7
+20151229 16 123 5527442 12
+20151230 14 72 3410712 9
+20151231 16 171 9333875 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 4
+0s-30s 270
+30s-2mn 7
+2mn-5mn 5
+15mn-30mn 2
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/ 342 10850678 290 228
+/fonts/fontawesome-webfont.woff 80 3110240 2 59
+/fonts/fontawesome-webfont.svg 5 1010740 0 1
+/fonts/glyphicons-halflings-regular.woff 5 116460 0 0
+/fonts/glyphicons-halflings-regular.svg 5 314250 0 4
+/fonts/glyphicons-halflings-regular.eot 3 60870 0 0
+/fonts/fontawesome-webfont.eot 2 76410 0 0
+/fonts/glyphicons-halflings-regular.ttf 1 41236 0 0
+/fonts/fontawesome-webfont.ttf 1 80652 0 0
+END_SIDER

@@ -1,0 +1,163 @@
+.templatemo_top {
+  top: 0;
+}
+
+.templatemo_about_box1 {
+    margin-top: 30px;
+    background-image: url(../images/FONDO%20PANE1.jpg);
+}
+
+.logo {
+  width: 100%;
+  max-width: 180px;
+  padding: 0;
+  padding-top: 5px;
+}
+
+.logo-wrapper {
+  padding: 0;
+}
+
+.templatemo_slider {
+	margin-top: 170px;
+  top: 0;
+}
+
+.ecommerce-wrapper {
+  height: 0px;
+}
+
+#wts1049415 {
+  visibility: hidden;
+}
+
+#boton {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#top-menu {
+  position: relative;
+}
+
+#ecommerce-menu .mainMenu {
+  max-width: 350px;
+  width: 98%;
+  /*margin: 0 auto;*/
+  position: absolute;
+  top: -50px;
+  right: 0;
+}
+
+#zero, #mark {
+  margin: 0 auto;
+}
+
+
+#paypal-cta-body {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+#paypal-cta-body table {
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+#support {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.templatemo_lightgrey_about {
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+@media (max-width: 300px) {
+    /*span { background-image: url(particular_ad_small.png); }*/
+}
+
+@media (max-width: 992px) and (min-width: 601px) {
+  .templatemo_caption {
+    margin-left: 20%;
+    text-align: left;
+    text-shadow: none;
+    top: 370px;
+    position: absolute;
+    z-index: 10;
+    width: 835px;
+    left: -150px;
+  }
+
+  .templatemo_caption p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 769px) and (min-width: 600px) {
+.templatemo_caption {
+
+    top: 35%;
+    width: 90%;
+    margin-left: 5%;
+    left: 0;
+}
+
+.templatemo_caption p {
+  font-size: 12px;
+}
+}
+
+@media (max-width: 767px) {
+#top-menu ul {
+  float: right
+}
+}
+
+
+
+@media (max-width: 992px) and (min-width: 768px){
+  .templatemo_container {
+	   width: 96%;
+	}
+}
+
+@media (min-width: 992px) {
+    .pull-right-sm {
+        float: right;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+  .pull-right-sm {
+    float: right
+  }
+}
+
+@media (max-width: 670px) {
+  .logo img {
+    max-width: 70px;
+  }
+
+  .templatemo_slider {
+  	margin-top: 130px;
+    top: 0;
+  }
+
+  .ecommerce-wrapper {
+    height: 37px;
+  }
+
+  #ecommerce-menu .mainMenu {
+    max-width: 350px;
+    width: 98%;
+    /*margin: 0 auto;*/
+    position: absolute;
+    top: 0px;
+    right: 0;
+  }
+}

@@ -1,0 +1,307 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201510 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2538                
+POS_VISITOR 6518                
+POS_DAY 7695                
+POS_DOMAIN 3067                
+POS_LOGIN 3293                
+POS_ROBOT 3448                
+POS_WORMS 3770                
+POS_EMAILSENDER 3901                
+POS_EMAILRECEIVER 4044                
+POS_SESSION 7968                
+POS_SIDER 8137                
+POS_FILETYPES 4179                
+POS_OS 4260                
+POS_BROWSER 4363                
+POS_SCREENSIZE 4568                
+POS_UNKNOWNREFERER 4642                
+POS_UNKNOWNREFERERBROWSER 4898                
+POS_ORIGIN 5149                
+POS_SEREFERRALS 5283                
+POS_PAGEREFS 5446                
+POS_SEARCHWORDS 5665                
+POS_KEYWORDS 5817                
+POS_MISC 2202                
+POS_ERRORS 5876                
+POS_CLUSTER 3149                
+POS_SIDER_404 5972                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151027040357 3 499 18492714233322
+FirstTime 20151016172315
+LastTime 20151027040356
+LastUpdate 20151028032212 3 0 3 0 0
+TotalVisits 38                  
+TotalUnique 30                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 30                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 2 2 192 0 0 0
+4 9 9 864 25 25 13896
+5 0 0 0 0 0 0
+6 1 1 96 0 0 0
+7 0 0 0 9 9 4696
+8 2 2 192 2 2 121
+9 2 2 192 2 2 192
+10 0 0 0 0 0 0
+11 8 8 42149 2 2 96
+12 2 2 192 0 0 0
+13 1 1 96 0 0 0
+14 4 4 384 5 5 338
+15 4 4 384 0 0 0
+16 0 0 0 4 4 313
+17 3 3 288 0 0 0
+18 2 2 192 1 1 25
+19 2 2 192 0 0 0
+20 0 0 0 1 1 96
+21 2 2 192 0 0 0
+22 1 1 96 6 6 363
+23 0 0 0 1 1 96
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 45 45 45701
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+googlebot 18 1302 20151026223446 6
+java 2 192 20151026041433 0
+\wbot[\/\-] 2 121 20151021080614 1
+unknown 1 25 20151022181255 1
+baiduspider 1 96 20151020234826 0
+crawl 1 96 20151024204421 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+html 39 3744 0 0
+cgi 6 41957 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 4
+winlong 1
+winxp 7
+win2000 1
+winnt 21
+Unknown 9
+linux 2
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 12
+firefox6.0.2 2
+firefox33.0 1
+mozilla 1
+firefox3.0.6 1
+firefox41.0 5
+firefox29.0 1
+firefox3.6.3 1
+firefox38.0 8
+msie9.0 8
+Unknown 9
+safari 7
+firefox31.0 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Scrapy/0.24.6_(_http://scrapy.org) 20151023132712
+Mechanize/2.7.2_Ruby/2.0.0p481_(http://github.com/sparklemotion/mechanize/) 20151026191452
+http-kit/2.0 20151025185202
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Scrapy/0.24.6_(_http://scrapy.org) 20151023132712
+Mechanize/2.7.2_Ruby/2.0.0p481_(http://github.com/sparklemotion/mechanize/) 20151026191452
+http-kit/2.0 20151025185202
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 26 26
+From1 0 0
+From2 10 10
+From3 4 4
+From4 5 5
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 9 9
+aol 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://rankings-analytics.com/try.php 3 3
+https://www.linkedin.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+302 1 0
+404 32 18400
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 10
+/technology.html 2 -
+/products.html 2 -
+/about 2 -
+/th1s_1s_a_4o4.html 8 http://www.google.com/url
+/aboutus.html 2 -
+/about.html 2 -
+/aboutus 2 -
+/technology 2 -
+/products 2 -
+/%22http:/www.asknshare.net/%22 8 http://www.google.com/url
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 30
+114.92.132.28 8 8 42149 20151019115621
+190.203.147.95 3 3 288 20151019124229
+67.212.162.98 3 3 288 20151026040726
+69.175.22.218 2 2 192 20151027040356 20151027040356 /
+54.188.61.130 2 2 192 20151026191452
+69.175.67.58 2 2 192 20151022040209
+54.190.149.188 2 2 192 20151020040518
+54.183.204.4 1 1 96 20151024141342
+54.212.17.79 1 1 96 20151019141424
+52.12.177.188 1 1 96 20151026140655
+54.234.166.50 1 1 96 20151026212210
+67.55.87.68 1 1 96 20151026144436
+104.197.177.76 1 1 96 20151025185202
+54.185.27.141 1 1 96 20151026114827
+159.90.71.161 1 1 96 20151020151526
+50.67.161.154 1 1 96 20151026033825
+23.21.200.247 1 1 96 20151019213642
+178.235.21.96 1 1 96 20151019151038
+95.94.237.184 1 1 96 20151024123302
+186.227.31.112 1 1 96 20151026080049
+210.5.121.190 1 1 96 20151018092000
+184.154.69.58 1 1 96 20151020041149
+202.46.49.202 1 1 96 20151021175928
+188.40.45.131 1 1 96 20151023132712
+107.23.56.124 1 1 96 20151022224008
+202.46.50.130 1 1 96 20151022063322
+52.91.51.78 1 1 96 20151026191441
+131.221.245.80 1 1 96 20151026093705
+50.156.25.164 1 1 96 20151025035616
+185.86.79.158 1 1 96 20151025185327
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20151016 2 2 192 1
+20151018 2 2 192 2
+20151019 12 12 42533 6
+20151020 3 3 288 3
+20151021 2 2 192 2
+20151022 3 3 288 3
+20151023 2 2 192 2
+20151024 3 3 288 3
+20151025 4 4 384 4
+20151026 11 11 1056 11
+20151027 1 1 96 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+15mn-30mn 1
+0s-30s 35
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 39 3744 38 36
+/fileman/fileman.cgi 6 41957 0 1
+END_SIDER
